@@ -1,0 +1,1867 @@
+[07:07:45] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[07:07:45] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.4.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:07:45] [main/INFO]: Loading 128 mods:
+	- antixray 1.4.6
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- autocrafter 1.0.11
+	   \-- polymer-core 0.5.0-rc.2+1.20-rc1
+	        |-- polymer-networking 0.5.0-rc.2+1.20-rc1
+	        |    \-- polymer-common 0.5.0-rc.2+1.20-rc1
+	        |         \-- packet_tweaker 0.4.0+1.19.4
+	        \-- polymer-registry-sync-manipulator 0.5.0-rc.2+1.20-rc1
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.4
+	- betterfortresses 1.20-Fabric-2.0.6
+	- betterjungletemples 1.20-Fabric-2.0.5
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- bigendcitiesmod 1.20.1-1.0.4
+	- biomespawnpoint 2.3
+	- blossom-back 2.1.1+1.20
+	- blossom-homes 2.2.1+1.20
+	- blossom-lib 2.5.4+1.20
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- blossom-tpa 2.2.1+1.20
+	- blossom-warps 2.0.5+1.20
+	- c2me 0.2.0+alpha.11.8
+	   |-- c2me-base 0.2.0+alpha.11.8
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.8
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.8
+	   |-- c2me-notickvd 0.2.0+alpha.11.8
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.8
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.8
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.8
+	   |-- c2me-opts-math 0.2.0+alpha.11.8
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.8
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.8
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.8
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.8
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.8
+	   |-- c2me-server-utils 0.2.0+alpha.11.8
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.8
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.8
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.8
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.87
+	- combatlog 2.0
+	- doubledoors 5.9
+	- entityculling 1.6.6
+	- extendedbonemeal 3.5
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.1
+	- firespreadtweaks 2.7
+	- fixedanvilrepaircost 3.4
+	- forgeconfigapiport 8.0.1
+	- healingcampfire 6.1
+	- incendium 5.3.5
+	- inventorytotem 3.3
+	- java 17
+	- leavesbegone 8.0.0
+	- lithium 0.11.2
+	- minecraft 1.20.1
+	- modernfix 5.18.10+mc1.20.1
+	- mr_nonetherite 1-v3.0.1
+	- nochatreports 1.20.1-v2.2.2
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- noisium 2.0.3+mc1.20-1.20.1
+	- puzzleslib 8.1.25
+	   \-- puzzlesaccessapi 8.0.7
+	- respawningshulkers 4.0
+	- revamped_shipwrecks 1.0.1
+	- shulkerdropstwo 3.4
+	- tectonic 2.4.1b
+	- terralith 2.5.4
+	- threadtweak 1.20.2-0.1.1
+	- trade_cycling 1.20.1-1.0.7
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- vmp 0.2.0+beta.7.102
+	- yungsapi 1.20-Fabric-4.0.5
+	   \-- org_javassist_javassist 3.29.2-GA
+	- yungsbridges 1.20-Fabric-4.0.3
+	- zombievillagersfromspawner 3.9
+[07:07:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/NewServer-/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:07:46] [main/INFO]: Compatibility level set to JAVA_17
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:07:46] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[07:07:46] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[07:07:46] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[07:07:46] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[07:07:46] [main/WARN]: Reference map 'combatlog-fabric-refmap.json' for fabric-combatlog.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:07:46] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[07:07:46] [main/INFO]: Loaded configuration file for ModernFix 5.18.10+mc1.20.1: 60 options available, 5 override(s) found
+[07:07:46] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[07:07:46] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[07:07:46] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[07:07:46] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[07:07:46] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[07:07:46] [main/INFO]: Applying Nashorn fix
+[07:07:46] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[07:07:47] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[07:07:47] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, vmp]) disables it and children
+[07:07:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07:07:47] [main/INFO]: ThreadTweak config initialized
+[07:07:48] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[07:07:48] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md2655f9$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[07:07:48] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md2655f9$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[07:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[07:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[07:07:49] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[07:07:51] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[07:07:52] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[07:07:52] [main/INFO]: Vanilla bootstrap took 4250 milliseconds
+[07:07:52] [main/INFO]: Successfully initialized antixray for fabric
+[07:07:52] [main/INFO]: Reflections took 48 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[07:07:52] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[07:07:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[07:07:52] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:52] [main/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[07:07:52] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[07:07:52] [main/INFO]: [STDOUT]: All 6 have been set properly
+[07:07:53] [main/INFO]: Loading Collective version 7.87.
+[07:07:53] [main/INFO]: Constructing common components for leavesbegone:main
+[07:07:53] [main/INFO]: KONNICHIWA ZA WARUDO!
+[07:07:53] [main/INFO]: Default JVM text encoding is: UTF-8
+[07:07:53] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[07:07:53] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[07:07:53] [main/INFO]: Loading Noisium.
+[07:07:53] [main/INFO]: Constructing common components for puzzleslib:main
+[07:07:53] [main/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[07:07:53] [main/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[07:07:53] [main/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[07:07:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[07:07:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[07:07:53] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:53] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[07:07:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:07:53] [main/INFO]: Bypassed Mojang DFU
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[07:07:56] [Worker-Main-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[07:07:56] [main/INFO]: Loaded 7 recipes
+[07:07:57] [main/INFO]: Loaded 1345 advancements
+[07:07:57] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 91 translation keys
+[07:07:57] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[07:07:57] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[07:07:57] [main/INFO]: Applied 301 biome modifications to 152 of 171 new biomes in 27.19 ms
+[07:07:57] [Server thread/INFO]: Loading server config for leavesbegone
+[07:07:57] [Thread-2/INFO]: Reloading server config for leavesbegone
+[07:07:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[07:07:57] [Server thread/INFO]: Loading properties
+[07:07:57] [Server thread/INFO]: Default game type: SURVIVAL
+[07:07:57] [Server thread/INFO]: Generating keypair
+[07:07:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:07:57] [Server thread/INFO]: Using epoll channel type
+[07:07:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:07:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:07:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:07:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:07:57] [Server thread/INFO]: Preparing level "world"
+[07:07:57] [Server thread/INFO]: Enforcing safe world random access
+[07:07:58] [Server thread/INFO]: Changing watch distance to 10
+[07:08:03] [Server thread/INFO]: Changing watch distance to 10
+[07:08:03] [Server thread/INFO]: Changing watch distance to 10
+[07:08:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:08:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:08:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:08:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[07:08:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:08:05] [Server thread/INFO]: Preparing spawn area: 0%
+[07:08:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:08:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[07:08:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:08:07] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:08:07] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[07:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[07:08:08] [Worker-Main-2/INFO]: Preparing spawn area: 21%
+[07:08:09] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[07:08:09] [Worker-Main-1/INFO]: Preparing spawn area: 44%
+[07:08:10] [Worker-Main-1/INFO]: Preparing spawn area: 61%
+[07:08:10] [Worker-Main-3/INFO]: Preparing spawn area: 80%
+[07:08:11] [Server thread/INFO]: Time elapsed: 7953 ms
+[07:08:11] [Server thread/INFO]: Done (13.536s)! For help, type "help"
+[07:08:11] [Server thread/WARN]: Dedicated server took 26.711 seconds to load
+[07:08:11] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[07:08:15] [Server thread/INFO]: icyspxy[/100.114.248.52:58680] logged in with entity id 172 at (837.9843098560181, 62.07326432466507, 936.3321180595646)
+[07:08:15] [Server thread/INFO]: icyspxy joined the game
+[07:08:17] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[07:08:20] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:52207] logged in with entity id 389 at (73.30000001192093, -46.0, -3.5588188994662433)
+[07:08:20] [Server thread/INFO]: ItzBl4nk joined the game
+[07:08:20] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[07:08:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[07:08:29] [Server thread/INFO]: Megam1[/100.96.63.92:58077] logged in with entity id 620 at (105.79481794709254, 169.24918707874468, -14.8100022505112)
+[07:08:29] [Server thread/INFO]: Megam1 joined the game
+[07:08:29] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[07:08:35] [Server thread/INFO]: Myaye[/100.115.245.128:50563] logged in with entity id 819 at (124.69999998807907, 195.0, 46.671966917432684)
+[07:08:35] [Server thread/INFO]: Myaye joined the game
+[07:08:35] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[07:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2858ms or 57 ticks behind
+[07:09:50] [Server thread/INFO]: Megam1 has made the advancement [Monster Hunter]
+[07:10:04] [Server thread/INFO]: Megam1 was slain by Zombie
+[07:10:05] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[07:10:44] [Server thread/INFO]: ItzBl4nk has made the advancement [Suit Up]
+[07:11:44] [Server thread/INFO]: Myaye has made the advancement [Monster Hunter]
+[07:12:11] [Server thread/INFO]: izzu[/100.97.60.37:53132] logged in with entity id 4452 at (-6.5, 166.0, -0.5)
+[07:12:11] [Server thread/INFO]: izzu joined the game
+[07:12:11] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:12:19] [Server thread/INFO]: <izzu> wow
+[07:12:27] [Server thread/INFO]: <icyspxy> hi izzu
+[07:13:00] [Server thread/INFO]: izzu lost connection: Disconnected
+[07:13:00] [Server thread/INFO]: izzu left the game
+[07:13:02] [Server thread/INFO]: izzu[/100.97.60.37:53144] logged in with entity id 5620 at (-0.6557557287181874, 165.0, -1.1298117364625913)
+[07:13:02] [Server thread/INFO]: izzu joined the game
+[07:13:02] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 10.350696807933673,0.0,1.011439423138654
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 10.748800531315737,0.0,1.0503409394132177
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 11.146904254697802,0.0,1.0892424556877813
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 11.545007978079866,0.0,1.128143971962345
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 11.94311170146193,0.0,1.1670454882369086
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 12.341215424843995,0.0,1.2059470045114722
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 12.739319148226059,0.0,1.2448485207860358
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 13.137422871608123,0.0,1.2837500370605994
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 13.535526594990188,0.0,1.322651553335163
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 13.933630318372252,0.0,1.3615530696097267
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 14.331734041754316,0.0,1.4004545858842903
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 14.72983776513638,0.0,1.439356102158854
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 15.127941488518445,0.0,1.4782576184334175
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 15.52604521190051,0.0,1.5171591347079811
+[07:13:18] [Server thread/WARN]: Myaye moved too quickly! 9.727343240391122,1.1661092609382138,2.2330668308498787
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 15.924148935282574,0.0,1.5560606509825448
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 16.322252658664638,0.0,1.5949621672571084
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 16.720356382046702,0.0,1.633863683531672
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 17.118460105428767,0.0,1.6727651998062356
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 17.51656382881083,0.0,1.7116667160807992
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 17.914667552192896,0.0,1.7505682323553629
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 18.31277127557496,0.0,1.7894697486299265
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 18.710874998957024,0.0,1.82837126490449
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 19.10897872233909,0.0,1.8672727811790537
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 19.507082445721153,0.0,1.9061742974536173
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 19.905186169103217,0.0,1.945075813728181
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 20.30328989248528,0.0,1.9839773300027446
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 20.701393615867346,0.0,2.022878846277308
+[07:13:18] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! 21.09949733924941,0.0,2.061780362551872
+[07:13:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2645ms or 52 ticks behind
+[07:13:35] [Server thread/INFO]: izzu was slain by Spider
+[07:13:36] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:13:36] [Server thread/WARN]: izzu moved too quickly! 5.423885461707449,10.0,-2.6112063506563414
+[07:13:40] [Server thread/INFO]: <icyspxy> izzu
+[07:13:42] [Server thread/INFO]: <icyspxy> are u good
+[07:13:47] [Server thread/INFO]: <icyspxy> join vc if u want to
+[07:13:55] [Server thread/INFO]: izzu was slain by Spider
+[07:13:56] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:14:36] [Server thread/INFO]: Megam1 has made the advancement [Acquire Hardware]
+[07:14:39] [Server thread/INFO]: icyspxy has made the advancement [Isn't It Iron Pick]
+[07:14:58] [Server thread/INFO]: izzu was slain by Zombie
+[07:14:59] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:15:15] [Server thread/INFO]: izzu was slain by Spider
+[07:15:16] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:15:46] [Server thread/INFO]: Megam1 has made the advancement [Suit Up]
+[07:17:09] [Server thread/INFO]: Megam1 has made the advancement [Isn't It Iron Pick]
+[07:17:19] [Server thread/WARN]: ItzBl4nk moved too quickly! -100.07695188158868,-12.926735675334939,-58.5191144965022
+[07:18:20] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! -4.879555529282925,0.0,-9.080622874947949
+[07:18:20] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! -5.063595083368455,0.0,-9.433213402907768
+[07:18:20] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! -5.241296290368609,0.0,-9.788681739334152
+[07:18:20] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! -5.412449164980899,0.0,-10.146996868945735
+[07:18:20] [Server thread/WARN]: Boat (vehicle of icyspxy) moved too quickly! -5.5769407238108215,0.0,-10.508090246248457
+[07:18:28] [Server thread/INFO]: ItzBl4nk was slain by icyspxy
+[07:18:29] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[07:18:37] [Server thread/WARN]: ItzBl4nk moved too quickly! 2005.35452662447,-90.0,1553.2341690590113
+[07:18:49] [Server thread/INFO]: <izzu> tpheifjd
+[07:19:27] [Server thread/WARN]: izzu moved too quickly! 1916.0532473477667,-112.0,1525.9054238570604
+[07:19:47] [Server thread/INFO]: icyspxy has made the advancement [Acquire Hardware]
+[07:22:06] [Server thread/INFO]: <izzu> I have notthinng 💔💔💔
+[07:22:15] [Server thread/INFO]: Myaye was blown up by Creeper
+[07:22:16] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[07:22:18] [Server thread/INFO]: <Myaye> grave
+[07:22:23] [Server thread/INFO]: <icyspxy> no grave
+[07:22:24] [Server thread/INFO]: <icyspxy> noob
+[07:22:27] [Server thread/INFO]: <Myaye> NOOO
+[07:22:30] [Server thread/INFO]: <Myaye> NIGGA
+[07:23:37] [Server thread/INFO]: <izzu> i pay Spotify premium for this
+[07:24:22] [Server thread/INFO]: izzu has made the advancement [Stone Age]
+[07:27:21] [Server thread/INFO]: vornerslogz[/100.118.194.8:49555] logged in with entity id 18929 at (7.5, 167.0, 5.5)
+[07:27:21] [Server thread/INFO]: vornerslogz joined the game
+[07:27:21] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[07:27:34] [Server thread/INFO]: ItzBl4nk has made the advancement [Sweet Dreams]
+[07:27:39] [Server thread/INFO]: izzu has made the advancement [Sweet Dreams]
+[07:27:47] [Server thread/INFO]: Made icyspxy a server operator
+[07:27:57] [Server thread/INFO]: Megam1 has made the advancement [Sweet Dreams]
+[07:28:04] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[07:28:04] [Server thread/INFO]: icyspxy left the game
+[07:28:06] [Server thread/INFO]: icyspxy[/100.114.248.52:58839] logged in with entity id 19676 at (3516.381507640516, 144.9375, 1126.9711698993942)
+[07:28:06] [Server thread/INFO]: icyspxy joined the game
+[07:28:06] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[07:28:16] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[07:28:16] [Server thread/INFO]: icyspxy left the game
+[07:28:20] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[07:28:20] [Server thread/INFO]: vornerslogz left the game
+[07:28:32] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[07:28:32] [Server thread/INFO]: ItzBl4nk left the game
+[07:28:36] [Server thread/INFO]: Joshidk[/100.110.34.86:56543] logged in with entity id 20196 at (5.5, 157.0, -1.5)
+[07:28:36] [Server thread/INFO]: Joshidk joined the game
+[07:28:36] [Server thread/INFO]: Async chunk loading for player Joshidk completed
+[07:28:39] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[07:28:39] [Server thread/INFO]: ...rcentage 1gamerule playersSleepingPercentage 1<--[HERE]
+[07:28:44] [Server thread/INFO]: Gamerule playersSleepingPercentage is now set to: 2
+[07:28:47] [Server thread/INFO]: <Joshidk> oh there
+[07:28:51] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:52265] logged in with entity id 20697 at (3685.526771510287, 133.0, 1021.3173774690556)
+[07:28:51] [Server thread/INFO]: ItzBl4nk joined the game
+[07:28:51] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[07:28:53] [Server thread/INFO]: icyspxy[/100.114.248.52:58863] logged in with entity id 20713 at (3518.5682921424504, 143.9375, 1127.2131016629476)
+[07:28:53] [Server thread/INFO]: icyspxy joined the game
+[07:28:53] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[07:29:05] [Server thread/INFO]: Myaye has made the advancement [Not Today, Thank You]
+[07:29:09] [Server thread/INFO]: <izzu> Ahhh diddlers
+[07:29:09] [Server thread/INFO]: ItzBl4nk has made the advancement [Cover Me with Diamonds]
+[07:29:22] [Server thread/INFO]: Joshidk was blown up by Creeper
+[07:29:25] [Server thread/INFO]: Async chunk loading for player Joshidk completed
+[07:29:26] [Server thread/INFO]: izzu has made the advancement [Getting an Upgrade]
+[07:29:28] [Server thread/INFO]: <Joshidk> LAG
+[07:29:28] [Server thread/INFO]: <icyspxy> JOSH
+[07:29:32] [Server thread/INFO]: <icyspxy> HOW ARE U STILL LAGGING
+[07:29:34] [Server thread/INFO]: <Myaye> josh
+[07:29:37] [Server thread/INFO]: <Joshidk> idk
+[07:29:44] [Server thread/INFO]: <izzu> 💔💔💔
+[07:29:51] [Server thread/INFO]: <Joshidk> my internet is so peak
+[07:29:58] [Server thread/INFO]: <izzu> OMG JOSH
+[07:30:14] [Server thread/INFO]: vornerslogz[/100.118.194.8:49825] logged in with entity id 22302 at (6.271363844662093, 168.0, 4.3126089280109605)
+[07:30:14] [Server thread/INFO]: vornerslogz joined the game
+[07:30:14] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[07:30:18] [Server thread/INFO]: <Myaye> bro
+[07:30:26] [Server thread/INFO]: <Myaye> 7 at once
+[07:30:29] [Server thread/INFO]: <Joshidk> oh hey my pings stable no
+[07:30:31] [Server thread/INFO]: <Joshidk> now
+[07:30:39] [Server thread/INFO]: Joshidk has made the advancement [Stone Age]
+[07:30:47] [Server thread/INFO]: Joshidk has made the advancement [Getting an Upgrade]
+[07:31:12] [Server thread/INFO]: <izzu> notme
+[07:31:17] [Server thread/INFO]: <izzu> not me it wasnt me
+[07:31:18] [Server thread/INFO]: <icyspxy> not me - icy
+[07:31:28] [Server thread/WARN]: vornerslogz moved too quickly! 9.05352776025174,3.001335979112156,3.3363189820522265
+[07:31:54] [Server thread/WARN]: vornerslogz moved too quickly! 3752.7319060823447,-91.75081292125532,708.260329726283
+[07:32:57] [Server thread/INFO]: vornerslogz has made the advancement [Acquire Hardware]
+[07:33:03] [Server thread/INFO]: Joshidk has made the advancement [Acquire Hardware]
+[07:33:03] [Server thread/INFO]: <izzu> "no having s lot of enteties in one spot" *allows string duper
+[07:33:11] [Server thread/INFO]: <Joshidk> lmao
+[07:33:20] [Server thread/WARN]: vornerslogz moved too quickly! -7.464594390157345,1.3693736602695026,-6.740674236061864
+[07:33:26] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[07:33:26] [Server thread/INFO]: icyspxy left the game
+[07:33:39] [Server thread/INFO]: <izzu> what is rule 34
+[07:33:48] [Server thread/INFO]: <Joshidk> porn
+[07:33:56] [Server thread/INFO]: <izzu> no jenny mo
+[07:34:08] [Server thread/INFO]: <Joshidk> a
+[07:34:16] [Server thread/INFO]: Joshidk has made the advancement [Isn't It Iron Pick]
+[07:34:28] [Server thread/INFO]: <Myaye> TWO lantern pumpkins?
+[07:34:56] [Server thread/INFO]: <Joshidk> why am i the only one on 3 bars grrr
+[07:35:03] [Server thread/INFO]: <Myaye> no insta tree break :sob:
+[07:35:05] [Server thread/INFO]: Myaye was blown up by Creeper
+[07:35:05] [Server thread/INFO]: icyspxy[/100.114.248.52:58914] logged in with entity id 27350 at (4102.5107741495385, 82.02442408821369, 714.4331667300198)
+[07:35:05] [Server thread/INFO]: icyspxy joined the game
+[07:35:05] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[07:35:07] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[07:35:08] [Server thread/INFO]: <vornerslogz> check rules
+[07:35:20] [Server thread/INFO]: <Myaye> wha da fak
+[07:35:33] [Server thread/INFO]: izzu has made the advancement [Acquire Hardware]
+[07:36:16] [Server thread/INFO]: <Joshidk> why do i have regen
+[07:37:09] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved wrongly! 0.4537984528942616
+[07:37:56] [Server thread/INFO]: izzu fell from a high place
+[07:37:58] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:38:09] [Server thread/INFO]: Joshidk has made the advancement [Not Today, Thank You]
+[07:38:12] [Server thread/INFO]: Myaye was blown up by Creeper
+[07:38:13] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[07:38:17] [Server thread/INFO]: <Myaye> AGAIN
+[07:38:18] [Server thread/INFO]: Reloading!
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[07:38:18] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[07:38:19] [Server thread/INFO]: Loaded 7 recipes
+[07:38:19] [Server thread/INFO]: Loaded 1345 advancements
+[07:38:19] [ForkJoinPool.commonPool-worker-2/INFO]: Loaded 91 translation keys
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 8.797362961426188,0.0,-5.530568082357377
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 9.114564950287786,0.0,-5.770579638669972
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 9.426551981321609,0.0,-6.016547866397559
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 9.732624022158234,0.0,-6.26891496599643
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 10.031675899667789,0.0,-6.52835094042689
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 10.322241923040565,0.0,-6.795625137724983
+[07:38:20] [Server thread/WARN]: Boat (vehicle of vornerslogz) moved too quickly! 10.603139398165695,0.0,-7.071159094071334
+[07:38:20] [Server thread/INFO]: <Myaye> BROTHE
+[07:38:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
+[07:38:26] [Server thread/INFO]: <Myaye> YO
+[07:38:29] [Server thread/INFO]: <Joshidk> get noob
+[07:38:49] [Server thread/INFO]: Joshidk has made the advancement [Monster Hunter]
+[07:38:54] [Server thread/INFO]: <izzu> josh can i to to
+[07:39:01] [Server thread/INFO]: <Joshidk> huh
+[07:39:06] [Server thread/INFO]: <izzu> tp to u
+[07:39:09] [Server thread/INFO]: <Joshidk> o ye
+[07:39:38] [Server thread/WARN]: Joshidk moved too quickly! 6.440473816818972,-2.757002463247801,7.532298513245536
+[07:39:52] [Server thread/INFO]: Joshidk was slain by Iron Golem
+[07:40:04] [Server thread/INFO]: Async chunk loading for player Joshidk completed
+[07:40:07] [Server thread/INFO]: <vornerslogz> lol
+[07:40:09] [Server thread/INFO]: <Joshidk> bruh
+[07:40:14] [Server thread/INFO]: <vornerslogz> thats sad
+[07:41:31] [Server thread/INFO]: <Joshidk> nc
+[07:41:47] [Server thread/WARN]: vornerslogz moved too quickly! 460.5292261230288,23.176759275064242,-270.06728694241536
+[07:42:04] [Server thread/INFO]: <Joshidk> where tf did my shield go
+[07:43:22] [Server thread/INFO]: izzu has made the advancement [Isn't It Iron Pick]
+[07:45:25] [Server thread/INFO]: Joshidk has made the advancement [Suit Up]
+[07:45:39] [Server thread/INFO]: <izzu> i go to josh
+[07:47:36] [Server thread/INFO]: izzu was shot by Skeleton
+[07:47:38] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:48:47] [Server thread/WARN]: Boat (vehicle of Megam1) moved wrongly! 0.3023196865569844
+[07:48:47] [Server thread/WARN]: Boat (vehicle of Megam1) moved wrongly! 0.6900351598051202
+[07:48:47] [Server thread/WARN]: Boat (vehicle of Megam1) moved wrongly! 0.30956758565116616
+[07:48:47] [Server thread/WARN]: Boat (vehicle of Megam1) moved wrongly! 0.5788118815198686
+[07:49:07] [Server thread/INFO]: <Megam1> 4633 62 289
+[07:50:00] [Server thread/INFO]: Myaye has made the advancement [Sweet Dreams]
+[07:50:22] [Server thread/INFO]: icyspxy has made the advancement [Hot Stuff]
+[07:52:02] [Server thread/INFO]: Gave 1 [Iron Ingot] to icyspxy
+[07:52:21] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:21] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:23] [Server thread/INFO]: Portal not located for entity class_3222['icyspxy'/27350, l='ServerLevel[world]', x=5042.45, y=75.00, z=-222.30] at null
+[07:52:26] [Worker-Main-1/INFO]: Instantiating Mojang DFU
+[07:52:30] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:31] [Server thread/INFO]: icyspxy has made the advancement [We Need to Go Deeper]
+[07:52:31] [Server thread/INFO]: icyspxy has made the advancement [Incendium]
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 8.772661343333311,0.0,5.57035418757242
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 9.119019581524299,0.0,5.769592339439775
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 9.46670576881661,0.0,5.96641684893779
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 9.815693877088052,0.0,6.160848081239273
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 10.16594929398343,0.0,6.352924520682436
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 10.517428407286388,0.0,6.542704607775754
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 10.870084686787777,0.0,6.7302544636418915
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 11.223867556745972,0.0,6.9156507056853656
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 11.578724599758061,0.0,7.098976000499356
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 11.934600317864351,0.0,7.280322031500091
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 12.291441287205998,0.0,7.4597781589809244
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 12.64919446049862,0.0,7.637435191450436
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 13.00780567278889,0.0,7.813388787287266
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 13.367224447084482,0.0,7.987728471884914
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 13.727400604348077,0.0,8.160545295474364
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 14.088285813225411,0.0,8.33192818818064
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 14.449833431354818,0.0,8.501964185071962
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 14.81199838489374,0.0,8.670738634291936
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 15.174740032880436,0.0,8.838328319365445
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 15.53801723869492,0.0,9.004812904798413
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 15.90179293467645,0.0,9.17026407188046
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 16.266032225112212,0.0,9.334749849513258
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 16.63070068637535,0.0,9.498338514749896
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 16.995767318576327,0.0,9.661091507623304
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 17.361202713073,0.0,9.823067652011567
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 17.726978904521275,0.0,9.984323418184793
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 18.093070709212043,0.0,10.144909622865477
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 18.45945397168998,0.0,10.304875535471815
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 18.826106944596177,0.0,10.464265494753732
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 19.19300856519112,0.0,10.623122940885594
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 19.56013987328606,0.0,10.781486968160642
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 19.927482329494524,0.0,10.939396297673682
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 20.295019240920738,0.0,11.096885779340433
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 20.662735580232038,0.0,11.253986776221574
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 21.03061634761525,0.0,11.41073105409675
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 21.3986480469639,0.0,11.567147202166879
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 21.76681852805723,0.0,11.723260949780787
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 22.13511685197136,0.0,11.879095453351802
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 22.50353317367535,0.0,12.034671552720049
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 22.872057161151133,0.0,12.190011546492215
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 23.240679515583906,0.0,12.345135502482457
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 23.609391871765183,0.0,12.500061481723051
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 23.97818816132167,0.0,12.654802196391529
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 24.347059990914204,0.0,12.809376172949527
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 24.716001278025942,0.0,12.963796541529668
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 25.08500654094314,0.0,13.118075120182326
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 25.454070849847994,0.0,13.27222254422123
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 25.82318830013992,0.0,13.426251929110883
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 26.192355045443946,0.0,13.580171536017957
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 26.561566156257868,0.0,13.73399234274332
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 26.930818660068326,0.0,13.887720684693782
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 27.300108417573938,0.0,14.041365808349042
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 27.669433171169658,0.0,14.194932491858204
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 28.038789421245383,0.0,14.348428579237748
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 28.40817401815275,0.0,14.50186113010232
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 28.777585591245952,0.0,14.65523295535386
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 29.147021442906407,0.0,14.808550127555115
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 29.516479145277117,0.0,14.961818112012416
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 29.885956513286146,0.0,15.115041827501337
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 30.25545158036948,0.0,15.268225700919764
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 30.624964040657687,0.0,15.42137017186198
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 30.99421994041768,0.0,15.575121857414288
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 31.362696684735056,0.0,15.730628302344542
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 31.729945436850358,0.0,15.888784027179085
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 32.095587653894654,0.0,16.050273630069988
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 32.4593111271397,0.0,16.215606517908085
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 32.82086446244466,0.0,16.385147570140113
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 33.180052492634786,0.0,16.559140895429074
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 33.53672888529309,0.0,16.73773398985194
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 33.89079047324594,0.0,16.920995742810796
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 34.24217576180763,0.0,17.10892600388521
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 34.590854275800666,0.0,17.301476495770252
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 34.93682290253673,0.0,17.49855984399472
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 35.2801046047025,0.0,17.700054455214207
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 35.62074004980059,0.0,17.90581794895423
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 35.958786722558216,0.0,18.11568986217251
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 36.294315637607724,0.0,18.3294970337949
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 36.627408198352896,0.0,18.54705832972561
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 36.95815323025636,0.0,18.7681887929108
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 37.28664418227163,0.0,18.99270328340088
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 37.612978966243645,0.0,19.22041673133335
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 37.905892024013156,0.0,19.45167687251385
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 37.93501483109867,0.0,19.68723109761259
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 37.98891510615613,0.0,19.928096444539214
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.06376360559352,0.0,20.17498000738579
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.156202387192025,0.0,20.428339891463132
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.26329912164783,0.0,20.688437167105683
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.38250166279613,0.0,20.955379750307863
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.51160337645979,0.0,21.229152872642693
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.648696819189354,0.0,21.50965307932514
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.79214619591676,0.0,21.796706504208053
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 38.94055477854181,0.0,22.09008813359751
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.09273101358576,0.0,22.389539546017566
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.248287950772465,0.0,22.69445911253731
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.40749249205146,0.0,23.00397564541425
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.571123177831396,0.0,23.31697909417334
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.740335418297946,0.0,23.632125175860388
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 39.91596811994259,0.0,23.948239951372422
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 40.09860143532296,0.0,24.264312458196876
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 40.28860416691623,0.0,24.579485392079995
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 40.48617499634838,0.0,24.893042887204963
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 40.691378113619976,0.0,25.20439633322929
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 40.904171103635235,0.0,25.51307171492693
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 41.124428943254316,0.0,25.81869633659486
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 41.35196194226501,0.0,26.120988148068655
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 41.5869948935524,0.0,26.419218316655495
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 41.83003951655519,0.0,26.712258904256323
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 42.081761074635324,0.0,26.99862785921197
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 42.342861655530214,0.0,27.276514697209343
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 42.61396240190061,0.0,27.543818980918893
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 42.89549847622402,0.0,27.798189287905267
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 43.18762372826404,0.0,28.037072233889496
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 43.4901268217709,0.0,28.257776726549586
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 43.80236338163195,0.0,28.457549591513846
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.12320626982,0.0,28.633661169763208
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.451014673201826,0.0,28.783494849915023
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.783625851510806,0.0,28.904653141766012
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.118369574260214,0.0,28.995059935545406
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.4525048918058,0.0,29.05362631749049
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.78340202023719,0.0,29.080078716254484
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 46.10865186087631,0.0,29.07478410786549
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 46.42613082787102,0.0,29.03859868859795
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 46.734030461726434,0.0,28.972736854988746
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 47.030859388393765,0.0,28.87865961884831
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 47.31542934310164,0.0,28.75798445884923
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 47.586842546166736,0.0,28.61241870441446
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 47.84445633265932,0.0,28.44370020334174
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 48.087857719157,0.0,28.253557069216477
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 48.3168314874365,0.0,28.043675943059093
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 48.53133109286409,0.0,27.815679873560633
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 48.73145712691348,0.0,27.571114336232178
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 48.91742459736179,0.0,27.311436051348814
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.089543270994,0.0,27.038008388825624
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.24889707512375,0.0,26.752171466465974
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.397181471556905,0.0,26.4552153173261
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.53657491682043,0.0,26.148397918080555
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.66961058861125,0.0,25.832987342571265
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.799073057040914,0.0,25.51031938070924
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 49.927892314040946,0.0,25.181857281924316
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.05905190672365,0.0,24.849251097302847
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.195489847038516,0.0,24.514385838576082
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.34000046183064,0.0,24.179415526609354
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.49514709631876,0.0,23.846787187260936
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.66316348840519,0.0,23.519237929656363
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 50.84586721464984,0.0,23.19977694236237
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.010300563913916,0.0,22.912262061414317
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.15829057433166,0.0,22.653498675415953
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.2914815801787,0.0,22.420611634186834
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.41135348226544,0.0,22.211013302633084
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.519238191285694,0.0,22.022374809231927
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.621247301492986,0.0,21.85167083599132
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.75251851910889,0.0,21.691505050028375
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 51.91014671783796,0.0,21.540952304356644
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.09139868946659,0.0,21.398476600702715
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.2594198088691,0.0,21.26922604893975
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.41063881232549,0.0,21.152900555434663
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.54673591183109,0.0,21.04820761405349
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.66922329814133,0.0,20.953983969306513
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 52.779461942900525,0.0,20.869182691280706
+[07:52:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10211ms or 204 ticks behind
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.45103147762984,0.0,15.424155777256594
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.54032477515375,0.0,15.355466745694962
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.62068874079614,0.0,15.293646618927163
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.693016307958715,0.0,15.23800850631006
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.758111116680084,0.0,15.187934206281177
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.821297096402304,0.0,15.140909279931869
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.87816447664591,0.0,15.098586847338645
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.929345117509,0.0,15.060496659013786
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 44.97540769306579,0.0,15.026215490429557
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.01686400996823,0.0,14.995362439521081
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.054174694192625,0.0,14.96759469443905
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.08775430910464,0.0,14.942603724527252
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.11797596172528,0.0,14.92011185220246
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.14517544836326,0.0,14.899869167646393
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.169654985688794,0.0,14.881650752028555
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.19168656869806,0.0,14.865254178406865
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.21151499288135,0.0,14.850497262538276
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.22936057417337,0.0,14.837216038608368
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.245421596911,0.0,14.82526293738811
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.259876516991426,0.0,14.814505146574852
+[07:52:35] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 45.27288594471975,0.0,14.804823135099404
+[07:52:36] [Server thread/INFO]: icyspxy has made the advancement [A Terrible Fortress]
+[07:52:36] [Server thread/INFO]: icyspxy has made the advancement [Strange Biomes]
+[07:52:36] [Server thread/INFO]: icyspxy has made the advancement [Hellfire Mantle]
+[07:52:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:37] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:37] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:39] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:42] [Server thread/INFO]: Joshidk has made the advancement [Sneak 100]
+[07:52:43] [Server thread/INFO]: Portal located for entity class_3222['icyspxy'/27350, l='ServerLevel[world]', x=630.30, y=57.00, z=-19.36] at TeleportTarget{pitch=9.806485, position=(5042.300012230873, 75.0, -222.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=163.59879}
+[07:52:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:51] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:51] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:52:52] [Server thread/INFO]: <Myaye> WHAT
+[07:53:00] [Server thread/INFO]: Portal located for entity class_3222['vornerslogz'/22302, l='ServerLevel[world]', x=5043.70, y=75.00, z=-222.30] at TeleportTarget{pitch=34.19148, position=(631.6999999880791, 57.0, -19.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=152.19699}
+[07:53:01] [Server thread/INFO]: vornerslogz has made the advancement [We Need to Go Deeper]
+[07:53:01] [Server thread/INFO]: vornerslogz has made the advancement [Incendium]
+[07:53:01] [Server thread/INFO]: vornerslogz has made the advancement [A Terrible Fortress]
+[07:53:01] [Server thread/INFO]: vornerslogz has made the advancement [Strange Biomes]
+[07:53:01] [Server thread/INFO]: vornerslogz has made the advancement [Hellfire Mantle]
+[07:53:04] [Server thread/INFO]: <vornerslogz> WILD
+[07:53:10] [Server thread/INFO]: Portal located for entity class_3222['vornerslogz'/22302, l='ServerLevel[world]', x=630.68, y=57.00, z=-19.32] at TeleportTarget{pitch=14.24148, position=(5042.676975134203, 75.0, -222.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=83.94461}
+[07:53:13] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 8.474469690915612,0.0,6.021965568952027
+[07:53:13] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 8.799615044846178,0.0,6.254875278347029
+[07:53:13] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 9.124738117011475,0.0,6.487820126932249
+[07:53:13] [Server thread/WARN]: Boat (vehicle of Megam1) moved too quickly! 9.44984113558894,0.0,6.7207966007878355
+[07:53:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2586ms or 51 ticks behind
+[07:53:17] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:17] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:17] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:17] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:17] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:18] [Server thread/INFO]: izzu has made the advancement [Sneak 100]
+[07:53:23] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:23] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:53:26] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[07:56:05] [Server thread/INFO]: izzu fell from a high place
+[07:56:07] [Server thread/INFO]: Async chunk loading for player izzu completed
+[07:56:38] [Server thread/INFO]: Megam1 has made the advancement [Not Today, Thank You]
+[07:56:54] [Server thread/INFO]: Myaye has made the advancement [What a Deal!]
+[07:59:01] [Server thread/WARN]: ItzBl4nk moved too quickly! -4079.288051148418,-109.0,-510.7162425388692
+[08:00:19] [Server thread/INFO]: <icyspxy> tweakaroo
+[08:01:09] [Server thread/INFO]: <icyspxy> dnot
+[08:01:10] [Server thread/INFO]: <icyspxy> sleep
+[08:01:29] [Server thread/INFO]: <icyspxy> nigga
+[08:01:30] [Server thread/INFO]: <icyspxy> kys
+[08:01:32] [Server thread/INFO]: <vornerslogz> fr
+[08:01:37] [Server thread/INFO]: <vornerslogz> end it
+[08:02:14] [Server thread/INFO]: Megam1 was slain by Vex
+[08:02:15] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:03:25] [Server thread/INFO]: Gave 2 [String] to icyspxy
+[08:03:28] [Server thread/WARN]: vornerslogz moved too quickly! 112.51992900267669,83.0,148.44335587303465
+[08:03:40] [Server thread/WARN]: vornerslogz moved too quickly! 83.67987823621843,-6.0,82.73110969766267
+[08:04:51] [Server thread/WARN]: vornerslogz moved too quickly! -28.533041436748135,93.0,-226.76103826720447
+[08:05:30] [Server thread/INFO]: Megam1 was slain by Vex
+[08:05:32] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:05:54] [Server thread/INFO]: izzu fell from a high place
+[08:05:56] [Server thread/INFO]: Myaye was slain by Iron Golem
+[08:05:57] [Server thread/INFO]: Async chunk loading for player izzu completed
+[08:05:57] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[08:06:18] [Server thread/WARN]: ItzBl4nk moved too quickly! 101.91044297296287,156.0,304.00107163366465
+[08:06:54] [Server thread/INFO]: vornerslogz has made the advancement [Stone Age]
+[08:07:06] [Server thread/WARN]: ItzBl4nk moved too quickly! 4023.484813449264,-46.44999998807907,434.18079107687333
+[08:07:59] [Server thread/INFO]: vornerslogz has made the advancement [Getting an Upgrade]
+[08:09:10] [Server thread/INFO]: Megam1 was slain by Vex
+[08:09:11] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:09:37] [Server thread/INFO]: Myaye lost connection: Disconnected
+[08:09:37] [Server thread/INFO]: Myaye left the game
+[08:11:45] [Server thread/WARN]: ItzBl4nk moved too quickly! 2.7238726422046966,2.550000011920929,19.930791076873334
+[08:11:55] [Server thread/INFO]: icyspxy has made the advancement [Sweet Dreams]
+[08:12:01] [Server thread/INFO]: izzu was slain by Warden
+[08:12:03] [Server thread/INFO]: Async chunk loading for player izzu completed
+[08:12:03] [Server thread/WARN]: izzu moved too quickly! 85.19999998807907,174.875,309.67901839229893
+[08:12:11] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[08:12:11] [Server thread/INFO]: ItzBl4nk left the game
+[08:12:53] [Server thread/INFO]: <icyspxy> you guys need string?
+[08:12:59] [Server thread/INFO]: <izzu> me pls
+[08:13:07] [Server thread/INFO]: <vornerslogz> we have infinite
+[08:13:14] [Server thread/INFO]: <vornerslogz> jk
+[08:13:20] [Server thread/INFO]: <vornerslogz> we got like 2 stacks
+[08:13:35] [Server thread/INFO]: <izzu> ty
+[08:13:36] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:52361] logged in with entity id 79763 at (4125.699308487756, 77.0, 651.7900996537657)
+[08:13:36] [Server thread/INFO]: ItzBl4nk joined the game
+[08:13:37] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[08:15:03] [Server thread/INFO]: Megam1 has made the advancement [The Cutest Predator]
+[08:15:48] [Server thread/WARN]: izzu moved too quickly! -144.87197979056768,-25.0625,117.22476834803132
+[08:16:26] [Server thread/INFO]: <icyspxy> bros ricj
+[08:16:32] [Server thread/INFO]: <vornerslogz> real
+[08:16:40] [Server thread/INFO]: <icyspxy> give me armor
+[08:16:47] [Server thread/INFO]: <vornerslogz> are yall having gayu sex in gen 2
+[08:16:51] [Server thread/INFO]: <ItzBl4nk> yes
+[08:16:52] [Server thread/INFO]: <izzu> yea
+[08:17:12] [Server thread/INFO]: <Joshidk> icy tp to me
+[08:17:15] [Server thread/INFO]: <icyspxy> no
+[08:17:16] [Server thread/INFO]: <Joshidk> look at this
+[08:17:19] [Server thread/INFO]: <Joshidk> pretty please
+[08:17:21] [Server thread/INFO]: Reloading!
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[08:17:21] [Worker-ResourceReload-4/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[08:17:21] [Server thread/INFO]: Loaded 7 recipes
+[08:17:21] [Server thread/INFO]: Loaded 1351 advancements
+[08:17:21] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 91 translation keys
+[08:17:29] [Server thread/INFO]: <icyspxy> swear on skibidi i wont die
+[08:17:35] [Server thread/INFO]: <Joshidk> on skibidi
+[08:17:48] [Server thread/INFO]: <icyspxy> oh
+[08:17:53] [Server thread/INFO]: <icyspxy> i already knew this lol
+[08:17:53] [Server thread/INFO]: <Joshidk> cool stuff
+[08:18:05] [Server thread/INFO]: <Joshidk> fek u
+[08:19:59] [Server thread/INFO]: Megam1 lost connection: Disconnected
+[08:19:59] [Server thread/INFO]: Megam1 left the game
+[08:20:13] [Server thread/INFO]: Portal located for entity class_3222['icyspxy'/27350, l='ServerLevel[world]', x=5043.70, y=75.00, z=-222.48] at TeleportTarget{pitch=25.683846, position=(631.6999999880791, 57.0, -19.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-2.2865295}
+[08:20:25] [Server thread/INFO]: vornerslogz has made the advancement [Suit Up]
+[08:20:35] [Server thread/INFO]: vornerslogz has made the advancement [Isn't It Iron Pick]
+[08:21:09] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=372, y=120, z=-264}
+[08:21:34] [Server thread/INFO]: Megam1[/100.96.63.92:59164] logged in with entity id 86831 at (5790.920633014542, 62.07326432466507, -285.8684746827541)
+[08:21:35] [Server thread/INFO]: Megam1 joined the game
+[08:21:36] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:22:03] [Server thread/INFO]: <Megam1> sleep
+[08:22:20] [Server thread/INFO]: <Megam1> sleep
+[08:22:36] [Server thread/INFO]: icyspxy has made the advancement [Diamonds!]
+[08:22:37] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=372, y=120, z=-293}
+[08:22:44] [Server thread/WARN]: ItzBl4nk moved too quickly! -4024.6420656780783,55.0,-413.939729423898
+[08:25:30] [Server thread/INFO]: Joshidk has made the advancement [A Seedy Place]
+[08:25:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[08:27:15] [Server thread/INFO]: Joshidk has made the advancement [The Cutest Predator]
+[08:27:19] [Server thread/INFO]: <icyspxy> wsarp
+[08:27:20] [Server thread/INFO]: <icyspxy> warp
+[08:28:19] [Server thread/INFO]: <Joshidk> icy is the string duper the 1 string or the 2
+[08:28:30] [Server thread/INFO]: <icyspxy> wym
+[08:28:38] [Server thread/INFO]: <Joshidk> which one is enabled
+[08:29:24] [Server thread/INFO]: icyspxy has made the advancement [Suit Up]
+[08:30:03] [Server thread/INFO]: Reloading!
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[08:30:04] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[08:30:04] [Server thread/INFO]: Loaded 7 recipes
+[08:30:04] [Server thread/INFO]: Loaded 1351 advancements
+[08:30:04] [ForkJoinPool.commonPool-worker-4/INFO]: Loaded 91 translation keys
+[08:30:14] [Server thread/INFO]: izzu has made the advancement [The Cutest Predator]
+[08:32:03] [Server thread/INFO]: icyspxy was slain by vornerslogz
+[08:32:05] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[08:32:05] [Server thread/WARN]: icyspxy moved too quickly! -5077.522686857607,-1.0,84.9707072937268
+[08:33:28] [Server thread/INFO]: Villager class_1646['Weaponsmith'/77649, l='ServerLevel[world]', x=23.99, y=158.00, z=251.01] died, message: 'Weaponsmith was slain by icyspxy'
+[08:33:57] [Server thread/INFO]: Villager class_1646['Villager'/77650, l='ServerLevel[world]', x=23.30, y=153.77, z=298.30] died, message: 'Villager was slain by icyspxy'
+[08:34:19] [Server thread/INFO]: Villager class_1646['Villager'/77656, l='ServerLevel[world]', x=39.71, y=146.00, z=274.33] died, message: 'Villager was slain by icyspxy'
+[08:34:25] [Server thread/INFO]: Joshidk has made the advancement [What a Deal!]
+[08:34:25] [Server thread/INFO]: Villager class_1646['Villager'/77652, l='ServerLevel[world]', x=50.70, y=144.00, z=267.70] died, message: 'Villager was slain by icyspxy'
+[08:34:28] [Server thread/INFO]: Villager class_1646['Mason'/77653, l='ServerLevel[world]', x=50.70, y=144.00, z=267.30] died, message: 'Mason was slain by icyspxy'
+[08:35:02] [Server thread/INFO]: izzu was slain by icyspxy
+[08:35:04] [Server thread/INFO]: Async chunk loading for player izzu completed
+[08:35:11] [Server thread/INFO]: <Joshidk> :gasp:
+[08:35:22] [Server thread/INFO]: <vornerslogz> we allied but we testing pvp
+[08:35:41] [Server thread/WARN]: vornerslogz moved too quickly! 14.771024476814091,89.0,155.62893765221793
+[08:35:41] [Server thread/WARN]: vornerslogz moved too quickly! 14.771024476814091,89.0,155.62893765221793
+[08:38:41] [Server thread/WARN]: vornerslogz moved too quickly! -3.3903240846138942,-39.58000001311302,-409.5471461101672
+[08:39:50] [Server thread/INFO]: ItzBl4nk has made the advancement [What a Deal!]
+[08:44:27] [Server thread/WARN]: vornerslogz moved too quickly! -92.23963476732206,-151.0,542.9514714612991
+[08:44:38] [Server thread/INFO]: Megam1 was slain by Zombie
+[08:44:39] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:44:50] [Server thread/INFO]: Megam1 was slain by Zombie
+[08:44:51] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:46:42] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[08:46:42] [Server thread/INFO]: vornerslogz left the game
+[08:47:10] [Server thread/INFO]: Megam1 was slain by Enderman
+[08:47:11] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:47:24] [Server thread/INFO]: Megam1 was shot by Skeleton
+[08:47:25] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[08:48:01] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[08:48:01] [Server thread/INFO]: icyspxy left the game
+[08:49:13] [Server thread/INFO]: vornerslogz[/100.118.194.8:51388] logged in with entity id 120005 at (5067.306946612168, 158.0, -100.48186458755373)
+[08:49:13] [Server thread/INFO]: vornerslogz joined the game
+[08:49:14] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[08:51:36] [Server thread/INFO]: Joshidk has made the advancement [Sweet Dreams]
+[08:51:48] [Server thread/WARN]: ItzBl4nk moved too quickly! -4021.53282353931,54.0,-413.3405948743668
+[08:52:30] [Server thread/WARN]: ItzBl4nk moved too quickly! 4022.372918668293,-51.0,427.9627190950247
+[08:52:43] [Server thread/WARN]: vornerslogz moved too quickly! 94.40733521412858,161.0,-547.0827881386571
+[08:57:11] [Server thread/WARN]: vornerslogz moved too quickly! 128.04965583869125,84.0,1113.1692777031087
+[08:59:19] [Server thread/INFO]: ItzBl4nk was slain by Iron Golem
+[08:59:20] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[08:59:20] [Server thread/WARN]: ItzBl4nk moved too quickly! -4095.770340815976,86.0,-683.0254606569788
+[08:59:29] [Server thread/WARN]: ItzBl4nk moved too quickly! 4101.83384439365,-84.0,684.6700314889088
+[08:59:37] [Server thread/INFO]: vornerslogz has made the advancement [Monster Hunter]
+[09:00:45] [Server thread/INFO]: ItzBl4nk was slain by Iron Golem
+[09:00:46] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:00:48] [Server thread/WARN]: vornerslogz moved too quickly! -51.23963476732206,2.0,-37.90562824349435
+[09:02:01] [Server thread/WARN]: vornerslogz moved too quickly! -50.23963476732206,2.0,-38.44911407719193
+[09:02:04] [Server thread/INFO]: ItzBl4nk fell from a high place
+[09:02:05] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:02:05] [Server thread/WARN]: ItzBl4nk moved too quickly! -4096.123954132674,141.0,-691.5661546735806
+[09:02:12] [Server thread/WARN]: ItzBl4nk moved too quickly! 4102.83384439365,-83.0,696.1627190831038
+[09:03:27] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[09:03:27] [Server thread/INFO]: ItzBl4nk left the game
+[09:03:29] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:52468] logged in with entity id 142649 at (4085.6626758383763, 23.878898281395603, 681.7226926128269)
+[09:03:29] [Server thread/INFO]: ItzBl4nk joined the game
+[09:03:30] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:03:30] [Server thread/INFO]: ItzBl4nk fell from a high place
+[09:03:32] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:03:32] [Server thread/WARN]: ItzBl4nk moved too quickly! -4085.1626758383763,142.0,-688.2226926128269
+[09:03:32] [Server thread/WARN]: ItzBl4nk moved too quickly! -4085.1626758383763,142.0,-688.2226926128269
+[09:03:37] [Server thread/INFO]: <Joshidk> get noob
+[09:03:37] [Server thread/INFO]: <ItzBl4nk> uhh
+[09:03:38] [Server thread/WARN]: ItzBl4nk moved too quickly! 4092.8338443936505,-83.0,693.1627190831038
+[09:04:56] [Server thread/INFO]: icyspxy[/100.114.248.52:61255] logged in with entity id 145406 at (5198.760979170927, 74.0, -1595.8387929598662)
+[09:04:56] [Server thread/INFO]: icyspxy joined the game
+[09:04:57] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[09:05:27] [Server thread/INFO]: <icyspxy> josh
+[09:05:30] [Server thread/INFO]: <Joshidk> ye
+[09:05:31] [Server thread/INFO]: <icyspxy> u have carrot//?
+[09:05:37] [Server thread/INFO]: <Joshidk> i think so
+[09:05:44] [Server thread/INFO]: <icyspxy> can i have
+[09:05:44] [Server thread/INFO]: <Joshidk> wait
+[09:05:45] [Server thread/INFO]: <icyspxy> 1
+[09:06:07] [Server thread/INFO]: <Joshidk> nvm i dont
+[09:06:18] [Server thread/INFO]: ItzBl4nk was slain by Spider
+[09:06:19] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:06:19] [Server thread/WARN]: ItzBl4nk moved too quickly! -4040.057551915236,140.0,-690.1959870026969
+[09:06:23] [Server thread/INFO]: <ItzBl4nk> i got hit throw wall
+[09:07:15] [Server thread/INFO]: ItzBl4nk was shot by Skeleton
+[09:07:16] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:07:20] [Server thread/INFO]: <ItzBl4nk> brehj
+[09:07:22] [Server thread/WARN]: ItzBl4nk moved too quickly! 4100.83384439365,-94.0,686.1627190831038
+[09:07:46] [Server thread/INFO]: ItzBl4nk fell from a high place
+[09:07:47] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:08:08] [Server thread/INFO]: ItzBl4nk fell from a high place
+[09:08:09] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:08:29] [Server thread/WARN]: ItzBl4nk moved too quickly! 4087.187000263925,-85.0,682.3133844729227
+[09:09:42] [Server thread/INFO]: ItzBl4nk was shot by Skeleton
+[09:09:44] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:09:48] [Server thread/INFO]: <ItzBl4nk> bro
+[09:09:49] [Server thread/WARN]: ItzBl4nk moved too quickly! 4084.8338443936505,-92.0,690.1627190831038
+[09:10:08] [Server thread/WARN]: vornerslogz moved too quickly! 196.0815105366355,-22.0,7.252147148276563
+[09:10:27] [Server thread/WARN]: ItzBl4nk moved too quickly! -4023.1661901075036,58.0,-412.1595658510036
+[09:11:07] [Server thread/WARN]: ItzBl4nk moved too quickly! 4025.48571864139,-55.0,426.3782210165231
+[09:12:22] [Server thread/INFO]: icyspxy has made the advancement [What a Deal!]
+[09:12:50] [Server thread/INFO]: Gave 12 [Carrot] to icyspxy
+[09:14:17] [Server thread/WARN]: ItzBl4nk moved too quickly! -4023.2811880458967,62.0,-409.7115081858703
+[09:14:53] [Server thread/WARN]: ItzBl4nk moved too quickly! 3990.1141034756924,-26.0,433.28455862193294
+[09:15:51] [Server thread/INFO]: icyspxy has made the advancement [A Seedy Place]
+[09:19:00] [Server thread/WARN]: ItzBl4nk moved too quickly! -4020.967451593927,62.0,-412.41346193564624
+[09:19:49] [Server thread/WARN]: Megam1 moved too quickly! 9.976779605302909,1.0176632811576667,-1.1396592133797867
+[09:19:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[09:21:58] [Server thread/INFO]: Joshidk has made the advancement [Diamonds!]
+[09:22:49] [Server thread/INFO]: Joshidk has completed the challenge [It Spreads]
+[09:24:51] [Server thread/INFO]: vornerslogz has made the advancement [The Parrots and the Bats]
+[09:25:34] [Server thread/INFO]: icyspxy has made the advancement [The Parrots and the Bats]
+[09:26:32] [Server thread/INFO]: vornerslogz has made the advancement [Bee Our Guest]
+[09:26:36] [Server thread/INFO]: Reloading!
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[09:26:36] [Worker-ResourceReload-9/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[09:26:36] [Server thread/INFO]: Loaded 7 recipes
+[09:26:36] [Server thread/INFO]: Loaded 1351 advancements
+[09:26:36] [ForkJoinPool.commonPool-worker-5/INFO]: Loaded 91 translation keys
+[09:28:51] [Server thread/INFO]: izzu drowned
+[09:28:53] [Server thread/INFO]: Async chunk loading for player izzu completed
+[09:28:59] [Server thread/INFO]: <Megam1> how bro dorwn
+[09:29:01] [Server thread/INFO]: <Megam1> drown
+[09:29:03] [Server thread/INFO]: <ItzBl4nk> how
+[09:29:03] [Server thread/INFO]: <ItzBl4nk> how
+[09:29:04] [Server thread/INFO]: <ItzBl4nk> how
+[09:29:31] [Server thread/INFO]: Megam1 lost connection: Disconnected
+[09:29:31] [Server thread/INFO]: Megam1 left the game
+[09:30:51] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[09:30:51] [Server thread/INFO]: icyspxy left the game
+[09:32:13] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[09:32:13] [Server thread/INFO]: vornerslogz left the game
+[09:33:27] [Server thread/INFO]: Joshidk lost connection: Disconnected
+[09:33:27] [Server thread/INFO]: Joshidk left the game
+[09:35:17] [Server thread/INFO]: icyspxy[/100.114.248.52:64612] logged in with entity id 188281 at (5079.877672948128, 159.0, -91.69848963011609)
+[09:35:17] [Server thread/INFO]: icyspxy joined the game
+[09:35:18] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[09:35:21] [Server thread/INFO]: Reloading!
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[09:35:21] [Worker-ResourceReload-14/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[09:35:22] [Server thread/INFO]: Loaded 7 recipes
+[09:35:22] [Server thread/INFO]: Loaded 1359 advancements
+[09:35:22] [ForkJoinPool.commonPool-worker-6/INFO]: Loaded 91 translation keys
+[09:35:32] [Server thread/INFO]: <icyspxy> a
+[09:36:33] [Server thread/INFO]: izzu lost connection: Disconnected
+[09:36:33] [Server thread/INFO]: izzu left the game
+[09:37:05] [Server thread/INFO]: Myaye[/100.115.245.128:50192] logged in with entity id 189218 at (-333.58552533418896, 87.0, -956.6476067293432)
+[09:37:05] [Server thread/INFO]: Myaye joined the game
+[09:37:06] [Server thread/INFO]: Async chunk loading for player Myaye completed
+[09:37:24] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[09:37:24] [Server thread/INFO]: ItzBl4nk left the game
+[09:37:55] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:52695] logged in with entity id 189801 at (4087.426079648213, 66.0, 684.228224577252)
+[09:37:55] [Server thread/INFO]: ItzBl4nk joined the game
+[09:37:56] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[09:41:49] [Server thread/INFO]: vornerslogz[/100.118.194.8:52724] logged in with entity id 192316 at (5074.17552941197, 160.5, -95.98240113840403)
+[09:41:49] [Server thread/INFO]: vornerslogz joined the game
+[09:41:49] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[09:42:31] [Server thread/WARN]: vornerslogz moved too quickly! -95.65053373992941,14.0,-31.86507287642666
+[09:47:53] [Server thread/INFO]: vornerslogz has made the advancement [Sweet Dreams]
+[09:56:59] [Server thread/INFO]: Myaye has made the advancement [Diamonds!]
+[10:01:10] [Server thread/INFO]: vornerslogz was slain by icyspxy
+[10:01:11] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[10:01:11] [Server thread/WARN]: vornerslogz moved too quickly! 5.042136538943851,0.0,8.843128817899483
+[10:04:04] [Server thread/INFO]: Myaye lost connection: Disconnected
+[10:04:04] [Server thread/INFO]: Myaye left the game
+[10:13:03] [Server thread/WARN]: ItzBl4nk moved too quickly! -4022.0995774631283,62.0,-411.7511374733204
+[10:14:00] [Server thread/WARN]: ItzBl4nk moved too quickly! 4022.967624231571,-54.0,437.9627190950247
+[10:18:41] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[10:18:41] [Server thread/INFO]: ItzBl4nk left the game
+[10:22:47] [Server thread/WARN]: vornerslogz moved too quickly! -19.75919166935728,23.0,-43.001380946007394
+[10:22:47] [Server thread/WARN]: vornerslogz moved too quickly! -19.75919166935728,23.0,-43.001380946007394
+[10:29:41] [Netty Epoll Login IO Thread #0/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
+[10:36:29] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[10:36:29] [Server thread/INFO]: icyspxy left the game
+[10:36:31] [Server thread/INFO]: icyspxy[/100.114.248.52:65229] logged in with entity id 219974 at (5081.032001254994, 158.0, -88.5310646105674)
+[10:36:31] [Server thread/INFO]: icyspxy joined the game
+[10:36:31] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[10:37:39] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54030] logged in with entity id 220193 at (4092.699999988079, 59.0, 681.4196385207052)
+[10:37:39] [Server thread/INFO]: ItzBl4nk joined the game
+[10:37:40] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[10:37:51] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[10:37:51] [Server thread/INFO]: ...ive icyspx'<--[HERE]
+[10:38:02] [Server thread/INFO]: Gave 2 [Diamond Shovel] to icyspxy
+[10:38:33] [Server thread/WARN]: ItzBl4nk moved too quickly! -4020.6839695366452,62.0,-412.7980160163333
+[10:39:07] [Server thread/WARN]: ItzBl4nk moved too quickly! 4016.8904320249667,-63.0,429.13811998344795
+[10:41:07] [Server thread/INFO]: Can't find element 'minecraft:effiency' of type 'minecraft:enchantment'
+[10:41:41] [Server thread/INFO]: Incorrect argument for command
+[10:41:41] [Server thread/INFO]: ...ficiency 5 <--[HERE]
+[10:41:58] [Server thread/INFO]: Applied enchantment Efficiency V to icyspxy's item
+[10:43:01] [Server thread/INFO]: Megam1[/100.96.63.92:61725] logged in with entity id 223747 at (4983.0179068975085, 97.0, -885.7965296804563)
+[10:43:01] [Server thread/INFO]: Megam1 joined the game
+[10:43:02] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[10:46:31] [Server thread/INFO]: Applied enchantment Efficiency V to icyspxy's item
+[10:48:51] [Server thread/WARN]: ItzBl4nk moved too quickly! -4025.5183368728462,69.0,-409.6883776607103
+[10:49:37] [Server thread/INFO]: Megam1 has reached the goal [Postmortal]
+[10:50:04] [Server thread/WARN]: ItzBl4nk moved too quickly! 4020.961912694859,-57.5625,427.594042988506
+[10:50:51] [Server thread/INFO]: Integer must not be more than 255, found 9999
+[10:50:51] [Server thread/INFO]: ...y haste 2 9999 true<--[HERE]
+[10:51:11] [Server thread/INFO]: Applied effect Haste to icyspxy
+[10:51:40] [Server thread/INFO]: Applied effect Haste to icyspxy
+[10:51:57] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[10:51:57] [Server thread/INFO]: ItzBl4nk left the game
+[10:51:58] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54068] logged in with entity id 236708 at (4092.553401098536, 59.0, 681.3188016634439)
+[10:51:58] [Server thread/INFO]: ItzBl4nk joined the game
+[10:51:59] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[10:52:30] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[10:52:30] [Server thread/INFO]: ItzBl4nk left the game
+[10:52:34] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54076] logged in with entity id 238395 at (4089.7050547593944, 66.0, 684.2989876183407)
+[10:52:34] [Server thread/INFO]: ItzBl4nk joined the game
+[10:52:35] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[10:52:52] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[10:52:52] [Server thread/INFO]: ItzBl4nk left the game
+[10:53:01] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54084] logged in with entity id 239392 at (4090.0584721332602, 66.0, 684.4764429683778)
+[10:53:01] [Server thread/INFO]: ItzBl4nk joined the game
+[10:53:02] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[11:00:07] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[11:00:07] [Server thread/INFO]: ItzBl4nk left the game
+[11:00:16] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54119] logged in with entity id 249802 at (4087.541230980923, 66.0, 684.5718467104087)
+[11:00:16] [Server thread/INFO]: ItzBl4nk joined the game
+[11:00:17] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[11:02:21] [Server thread/INFO]: icyspxy fell from a high place
+[11:02:22] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[11:03:58] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[11:03:58] [Server thread/INFO]: ItzBl4nk left the game
+[11:04:04] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54131] logged in with entity id 253237 at (4089.492085558589, 66.0, 684.2535137799982)
+[11:04:04] [Server thread/INFO]: ItzBl4nk joined the game
+[11:04:05] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[11:04:30] [Server thread/INFO]: Applied effect Haste to icyspxy
+[11:04:49] [Server thread/INFO]: Applied effect Haste to icyspxy
+[11:05:17] [Server thread/INFO]: Removed every effect from icyspxy
+[11:05:24] [Server thread/WARN]: vornerslogz moved too quickly! 120.84045679891096,-42.0,-24.492058470785125
+[11:05:24] [Server thread/WARN]: vornerslogz moved too quickly! 120.84045679891096,-42.0,-24.492058470785125
+[11:05:27] [Server thread/WARN]: ItzBl4nk moved too quickly! 4023.837711729884,-63.9375,424.1290471177223
+[11:07:43] [Server thread/INFO]: <vornerslogz> talk nigga
+[11:07:55] [Server thread/INFO]: <Megam1> me?
+[11:07:59] [Server thread/INFO]: <vornerslogz> yea
+[11:08:03] [Server thread/INFO]: <Megam1> I've literally been talking
+[11:08:07] [Server thread/INFO]: <Megam1> the whole time
+[11:08:43] [Server thread/WARN]: ItzBl4nk moved too quickly! -4023.306291290353,62.0,-410.0614645323049
+[11:08:57] [Server thread/INFO]: vornerslogz has made the advancement [A Seedy Place]
+[11:09:20] [Server thread/WARN]: ItzBl4nk moved too quickly! 4019.637585792069,-57.5625,426.1759399584061
+[11:10:30] [Server thread/WARN]: vornerslogz moved too quickly! 119.80845997757206,-42.0,-27.028229784792963
+[11:10:30] [Server thread/WARN]: vornerslogz moved too quickly! 119.80845997757206,-42.0,-27.028229784792963
+[11:11:09] [Server thread/WARN]: vornerslogz moved too quickly! -100.01590658730129,42.0,25.677964588688837
+[11:11:09] [Server thread/WARN]: vornerslogz moved too quickly! -100.01590658730129,42.0,25.677964588688837
+[11:12:21] [Server thread/WARN]: icyspxy moved too quickly! -125.26552283100773,27.0,61.69912103607399
+[11:13:12] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[11:13:12] [Server thread/INFO]: ItzBl4nk left the game
+[11:13:35] [Server thread/INFO]: <Megam1> I have some
+[11:13:38] [Server thread/WARN]: icyspxy moved too quickly! 90.67729665286788,-42.0,-20.837571961795376
+[11:13:41] [Server thread/INFO]: <Megam1> like a lot
+[11:15:46] [Server thread/WARN]: Megam1 moved too quickly! -79.74200918130828,-60.0,-798.9678128054414
+[11:19:29] [Server thread/INFO]: Megam1 has made the advancement [What a Deal!]
+[11:19:44] [Server thread/INFO]: <Megam1> I already have 2 stacks
+[11:19:54] [Server thread/INFO]: <Megam1> no
+[11:19:59] [Server thread/INFO]: <Megam1> I found them on my way here
+[11:20:55] [Server thread/INFO]: <Megam1> place some torches
+[11:21:57] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54170] logged in with entity id 263709 at (4090.699999988079, 66.5625, 684.9780898848658)
+[11:21:57] [Server thread/INFO]: ItzBl4nk joined the game
+[11:21:58] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[11:22:11] [Server thread/WARN]: vornerslogz moved too quickly! 82.16779872068491,-41.0,-20.20015480336413
+[11:22:11] [Server thread/WARN]: vornerslogz moved too quickly! 82.16779872068491,-41.0,-20.20015480336413
+[11:25:53] [Server thread/INFO]: <Megam1> 67
+[11:26:17] [Server thread/INFO]: <Megam1> I killed so much mobs
+[11:26:38] [Server thread/INFO]: <Megam1> 7
+[11:27:32] [Server thread/INFO]: <Megam1> omg
+[11:27:36] [Server thread/INFO]: <Megam1> I almost died from fall damage
+[11:27:47] [Server thread/INFO]: <Megam1> what
+[11:29:40] [Server thread/WARN]: ItzBl4nk moved too quickly! 4020.12901068697,-57.5625,426.8619005304981
+[11:29:48] [Server thread/INFO]: <Megam1> back
+[11:31:36] [Server thread/INFO]: <Megam1> is this a string farm
+[11:38:59] [Server thread/WARN]: ItzBl4nk moved too quickly! -4020.12391151722,61.4375,-412.78594514088246
+[11:49:54] [Server thread/INFO]: <icyspxy> let me restart server?
+[11:50:02] [Server thread/INFO]: <Megam1> no
+[11:53:33] [Server thread/INFO]: <Megam1> someone sleep
+[11:55:25] [Server thread/INFO]: Megam1 has made the advancement [Hot Stuff]
+[11:55:40] [Server thread/INFO]: <Megam1> blud
+[11:59:59] [Server thread/INFO]: ItzBl4nk fell from a high place
+[12:00:01] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[12:01:03] [Server thread/INFO]: ItzBl4nk was blown up by Creeper
+[12:01:04] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[12:02:15] [Server thread/INFO]: ItzBl4nk was shot by Skeleton
+[12:02:16] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[12:03:17] [Server thread/INFO]: Portal not located for entity class_3222['Megam1'/223747, l='ServerLevel[world]', x=4878.34, y=148.00, z=-774.49] at null
+[12:03:19] [Server thread/INFO]: Megam1 has made the advancement [We Need to Go Deeper]
+[12:03:19] [Server thread/INFO]: Megam1 has made the advancement [Incendium]
+[12:03:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2628ms or 52 ticks behind
+[12:03:32] [Server thread/INFO]: Portal located for entity class_3222['Megam1'/223747, l='ServerLevel[world]', x=617.45, y=114.00, z=-107.60] at TeleportTarget{pitch=11.549987, position=(4878.450830593611, 148.0, -774.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=113.10303}
+[12:03:41] [Server thread/INFO]: ItzBl4nk has made the advancement [Not Today, Thank You]
+[12:03:49] [Server thread/INFO]: <Megam1> where warp
+[12:12:37] [Server thread/INFO]: Megam1 has made the advancement [A Seedy Place]
+[12:15:35] [Server thread/INFO]: <Megam1> what villager buys sticks
+[12:15:39] [Server thread/INFO]: <Megam1> nvm found it
+[12:16:22] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[12:16:22] [Server thread/INFO]: icyspxy left the game
+[12:18:17] [Server thread/INFO]: icyspxy[/100.114.248.52:51009] logged in with entity id 307306 at (5010.58355700894, 171.0, -96.250713858139)
+[12:18:17] [Server thread/INFO]: icyspxy joined the game
+[12:18:17] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[12:18:55] [Server thread/INFO]: <Megam1> is there inf trades
+[12:20:24] [Server thread/INFO]: <Megam1> hjow do I make a fletching table
+[12:20:40] [Server thread/INFO]: <Megam1> flint? and
+[12:24:58] [Server thread/INFO]: Megam1 has made the advancement [Take Aim]
+[12:26:13] [Server thread/INFO]: <Megam1> I forgot about achievements lol
+[12:27:30] [Server thread/INFO]: <Megam1> sleep pls
+[12:30:00] [Server thread/INFO]: <Megam1> oh fisherman takes
+[12:30:04] [Server thread/INFO]: <Megam1> the string
+[12:31:03] [Server thread/INFO]: <Megam1> how do I make
+[12:31:07] [Server thread/INFO]: <Megam1> barrels
+[12:31:13] [Server thread/INFO]: <Megam1> oh
+[12:32:45] [Server thread/INFO]: <Megam1> what can breed villagers
+[12:32:53] [Server thread/INFO]: <Megam1> what else
+[12:32:59] [Server thread/INFO]: <Megam1> is that all
+[12:33:08] [Server thread/INFO]: <Megam1> poraroes
+[12:33:35] [Server thread/INFO]: <Megam1> they're ignoring the apple
+[12:33:56] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[12:33:56] [Server thread/INFO]: icyspxy left the game
+[12:37:38] [Server thread/INFO]: Villager class_1646['Villager'/304284, l='ServerLevel[world]', x=4086.62, y=66.56, z=675.33] died, message: 'Villager suffocated in a wall'
+[12:44:08] [Server thread/INFO]: <Megam1> why are they not breeding
+[12:44:29] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[12:44:29] [Server thread/INFO]: vornerslogz left the game
+[12:45:45] [Server thread/INFO]: <Megam1> ok there we go
+[12:46:15] [Server thread/INFO]: <Megam1> gonna eat
+[12:46:17] [Server thread/INFO]: Megam1 lost connection: Disconnected
+[12:46:17] [Server thread/INFO]: Megam1 left the game
+[13:00:26] [Server thread/INFO]: icyspxy[/100.114.248.52:52525] logged in with entity id 338637 at (5008.969477223747, 171.5, -93.98750001192093)
+[13:00:26] [Server thread/INFO]: icyspxy joined the game
+[13:00:27] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[13:08:46] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[13:08:46] [Server thread/INFO]: ItzBl4nk left the game
+[13:09:38] [Server thread/INFO]: Megam1[/100.96.63.92:63136] logged in with entity id 341695 at (4971.373603407166, 98.0, -881.7047215480511)
+[13:09:38] [Server thread/INFO]: Megam1 joined the game
+[13:09:39] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[13:11:02] [Server thread/INFO]: vornerslogz[/100.118.194.8:56388] logged in with entity id 342275 at (4970.1749297431, 200.0, -57.32933094406676)
+[13:11:02] [Server thread/INFO]: vornerslogz joined the game
+[13:11:02] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:13:02] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[13:13:02] [Server thread/INFO]: vornerslogz left the game
+[13:13:52] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54472] logged in with entity id 343161 at (4088.028584686403, 66.0, 679.3098675262735)
+[13:13:52] [Server thread/INFO]: ItzBl4nk joined the game
+[13:13:53] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[13:14:07] [Server thread/INFO]: vornerslogz[/100.118.194.8:56586] logged in with entity id 343479 at (4979.632514024061, 201.0, -71.14940799550918)
+[13:14:07] [Server thread/INFO]: vornerslogz joined the game
+[13:14:07] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:14:09] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[13:14:09] [Server thread/INFO]: icyspxy left the game
+[13:15:44] [Server thread/INFO]: icyspxy[/100.114.248.52:53337] logged in with entity id 343971 at (4979.578140092673, 200.875, -68.49675971518202)
+[13:15:44] [Server thread/INFO]: icyspxy joined the game
+[13:15:44] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[13:16:29] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[13:16:29] [Server thread/INFO]: icyspxy left the game
+[13:16:29] [Server thread/WARN]: handleDisconnection() called twice
+[13:16:38] [Server thread/INFO]: icyspxy[/100.114.248.52:53349] logged in with entity id 344270 at (4982.9607784094605, 200.0, -67.56520759939643)
+[13:16:38] [Server thread/INFO]: icyspxy joined the game
+[13:16:38] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[13:16:54] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[13:16:54] [Server thread/INFO]: icyspxy left the game
+[13:16:56] [Server thread/INFO]: <Megam1> when are these kids gonna grow up
+[13:17:38] [Server thread/INFO]: <Megam1> what
+[13:17:41] [Server thread/INFO]: <Megam1> give me 1
+[13:18:15] [Server thread/INFO]: icyspxy[/100.114.248.52:53371] logged in with entity id 344874 at (4982.9607784094605, 200.0, -67.56520759939643)
+[13:18:15] [Server thread/INFO]: icyspxy joined the game
+[13:18:15] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[13:20:25] [Server thread/INFO]: <Megam1> these farms are taking so long
+[13:20:32] [Server thread/INFO]: <Megam1> to grow
+[13:23:29] [Server thread/INFO]: Megam1 has made the advancement [Cover Me with Diamonds]
+[13:24:06] [Server thread/INFO]: <Megam1> ayy
+[13:24:08] [Server thread/INFO]: <Megam1> full diamond
+[13:24:10] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[13:24:10] [Server thread/INFO]: vornerslogz left the game
+[13:24:12] [Server thread/INFO]: vornerslogz[/100.118.194.8:56776] logged in with entity id 347433 at (5084.615185427293, 157.0, -100.56439358269722)
+[13:24:12] [Server thread/INFO]: vornerslogz joined the game
+[13:24:12] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:26:48] [Server thread/INFO]: <Megam1> when are these villagers gonna grow up omg
+[13:27:33] [Server thread/INFO]: <Megam1> I have luck
+[13:27:34] [Server thread/INFO]: vornerslogz has made the advancement [What a Deal!]
+[13:27:35] [Server thread/INFO]: <Megam1> effect
+[13:28:35] [Server thread/INFO]: <Megam1> bro how tf are your villagers grown up so fast
+[13:28:40] [Server thread/INFO]: <Megam1> mine are still kids
+[13:28:46] [Server thread/INFO]: <Megam1> oh
+[13:29:42] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[13:29:42] [Server thread/INFO]: vornerslogz left the game
+[13:29:45] [Server thread/INFO]: vornerslogz[/100.118.194.8:56917] logged in with entity id 355551 at (5066.204756307223, 158.0, -95.39378771672995)
+[13:29:45] [Server thread/INFO]: vornerslogz joined the game
+[13:29:45] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:29:58] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[13:29:58] [Server thread/INFO]: vornerslogz left the game
+[13:30:50] [Server thread/INFO]: vornerslogz[/100.118.194.8:57032] logged in with entity id 359213 at (5086.962996420212, 157.0, -92.95727272934961)
+[13:30:50] [Server thread/INFO]: vornerslogz joined the game
+[13:30:50] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:31:13] [Server thread/INFO]: <Megam1> oh
+[13:31:15] [Server thread/INFO]: <Megam1> whoops
+[13:33:22] [Server thread/INFO]: <Megam1> YO
+[13:33:29] [Server thread/INFO]: <Megam1> POWER 4 BOW VILLAGER
+[13:33:31] [Server thread/INFO]: <Megam1> RAHH
+[13:33:33] [Server thread/INFO]: <ItzBl4nk> nice
+[13:34:38] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[13:34:38] [Server thread/INFO]: ItzBl4nk left the game
+[13:34:40] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54519] logged in with entity id 368752 at (4075.3586198812454, 67.0, 679.4386491078529)
+[13:34:40] [Server thread/INFO]: ItzBl4nk joined the game
+[13:34:40] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[13:34:57] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[13:34:57] [Server thread/INFO]: vornerslogz left the game
+[13:36:14] [Server thread/INFO]: vornerslogz[/100.118.194.8:57436] logged in with entity id 369666 at (5057.699999988079, 158.0, -100.62263061863356)
+[13:36:14] [Server thread/INFO]: vornerslogz joined the game
+[13:36:14] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[13:37:36] [Server thread/INFO]: <Megam1> test vorner
+[13:37:44] [Server thread/INFO]: <Megam1> bow
+[13:37:49] [Server thread/INFO]: <Megam1> just 1
+[13:37:58] [Server thread/INFO]: <Megam1> iit wont kill you
+[13:38:05] [Server thread/INFO]: <Megam1> see
+[13:38:12] [Server thread/INFO]: <Megam1> it's only power 2 lol
+[13:39:01] [Server thread/WARN]: ItzBl4nk moved too quickly! 4019.678001902696,-57.5625,425.33938817802675
+[13:41:13] [Server thread/INFO]: <Megam1> no
+[13:41:24] [Server thread/INFO]: <Megam1> how is he lagging
+[13:41:38] [Server thread/INFO]: <Megam1> yeah it's stream
+[13:41:39] [Server thread/INFO]: <Megam1> turn it off
+[13:41:41] [Server thread/INFO]: <Megam1> you wont lag
+[13:43:05] [Server thread/INFO]: <Megam1> wait you were there?
+[13:43:12] [Server thread/INFO]: <Megam1> I was shooting at random places lol
+[13:44:19] [Server thread/INFO]: <Megam1> r
+[13:44:35] [Server thread/INFO]: <Megam1> r
+[13:44:58] [Server thread/INFO]: <Megam1> r
+[13:45:21] [Server thread/INFO]: <Megam1> r
+[13:46:25] [Server thread/INFO]: <Megam1> w
+[13:48:00] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[13:48:00] [Server thread/INFO]: ItzBl4nk left the game
+[13:48:05] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54569] logged in with entity id 375552 at (4080.519696853651, 67.0, 678.8884146856474)
+[13:48:05] [Server thread/INFO]: ItzBl4nk joined the game
+[13:48:06] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[14:00:16] [Server thread/INFO]: Reloading!
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[14:00:16] [Worker-ResourceReload-17/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[14:00:17] [Server thread/INFO]: Loaded 7 recipes
+[14:00:17] [Server thread/INFO]: Loaded 1359 advancements
+[14:00:17] [ForkJoinPool.commonPool-worker-7/INFO]: Loaded 91 translation keys
+[14:04:45] [Server thread/WARN]: ItzBl4nk moved too quickly! -4018.69574406047,61.0,-411.53972944773983
+[14:05:23] [Server thread/INFO]: icyspxy has made the advancement [Cover Me with Diamonds]
+[14:06:03] [Server thread/WARN]: ItzBl4nk moved too quickly! 3990.2971554702935,-45.0,441.71468197509745
+[14:06:11] [Server thread/INFO]: vornerslogz has made the advancement [Cover Me with Diamonds]
+[14:11:48] [Server thread/INFO]: <Megam1> lol
+[14:12:36] [Server thread/INFO]: <Megam1> yyeah I need iron as well
+[14:13:15] [Server thread/INFO]: <Megam1> I already have full diamond with enchants and tools with enchants
+[14:13:36] [Server thread/INFO]: <Megam1> iron
+[14:13:40] [Server thread/INFO]: <Megam1> trade iron for ems
+[14:13:52] [Server thread/INFO]: <Megam1> I have 10 stacks
+[14:13:53] [Server thread/INFO]: <Megam1> of iron
+[14:14:23] [Server thread/INFO]: <Megam1> I used it all lol
+[14:14:28] [Server thread/INFO]: <Megam1> to upgrade to master
+[14:15:25] [Server thread/INFO]: <Megam1> gonna make 1
+[14:15:27] [Server thread/INFO]: <Megam1> soon
+[14:17:27] [Server thread/INFO]: <Megam1> 15
+[14:18:12] [Server thread/INFO]: <Megam1> I almost lost 4 villagers
+[14:20:00] [Server thread/INFO]: <Megam1> let me come
+[14:20:14] [Server thread/INFO]: <Megam1> I need iorn
+[14:20:21] [Server thread/INFO]: <Megam1> I said I used them
+[14:20:29] [Server thread/INFO]: <Megam1> mastery
+[14:20:45] [Server thread/INFO]: <Megam1> wow
+[14:20:51] [Server thread/INFO]: <Megam1> I will secretly follow
+[14:21:53] [Server thread/WARN]: vornerslogz moved too quickly! -26.425374738306346,-58.44876528031061,-2111.5331326215687
+[14:22:38] [Server thread/INFO]: <Megam1> my base is way far lol
+[14:23:08] [Server thread/INFO]: <Megam1> No
+[14:23:13] [Server thread/INFO]: <Megam1> + that ain't even my base lol
+[14:25:01] [Server thread/WARN]: vornerslogz moved too quickly! 52.7638096012779,-6.0,-112.31126088387146
+[14:28:05] [Server thread/WARN]: vornerslogz moved too quickly! 334.58176519107565,-31.0,-140.9772653314826
+[14:28:05] [Server thread/WARN]: vornerslogz moved too quickly! 334.58176519107565,-31.0,-140.9772653314826
+[14:29:49] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[14:29:49] [Server thread/INFO]: vornerslogz left the game
+[14:30:03] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[14:30:03] [Server thread/INFO]: icyspxy left the game
+[14:30:20] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[14:30:20] [Server thread/INFO]: ItzBl4nk left the game
+[14:30:26] [Server thread/INFO]: vornerslogz[/100.118.194.8:58799] logged in with entity id 485628 at (5148.71310705178, 56.0, -3874.194872469233)
+[14:30:26] [Server thread/INFO]: vornerslogz joined the game
+[14:30:26] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[14:30:35] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[14:30:35] [Server thread/INFO]: vornerslogz left the game
+[14:31:06] [Server thread/INFO]: icyspxy[/100.114.248.52:55387] logged in with entity id 486139 at (5147.699999988079, 59.0, -3881.384553859576)
+[14:31:06] [Server thread/INFO]: icyspxy joined the game
+[14:31:07] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[14:31:43] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[14:31:43] [Server thread/INFO]: icyspxy left the game
+[14:32:22] [Server thread/INFO]: vornerslogz[/100.118.194.8:58998] logged in with entity id 487119 at (5148.073023241168, 55.0, -3872.9673462172677)
+[14:32:22] [Server thread/INFO]: vornerslogz joined the game
+[14:32:23] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[14:33:06] [Server thread/WARN]: vornerslogz moved too quickly! -70.13119449863916,106.0,3781.8143330846246
+[14:33:06] [Server thread/WARN]: vornerslogz moved too quickly! -70.13119449863916,106.0,3781.8143330846246
+[14:34:01] [Server thread/INFO]: icyspxy[/100.114.248.52:55467] logged in with entity id 488675 at (5147.684565518854, 59.0, -3880.3123351685977)
+[14:34:01] [Server thread/INFO]: icyspxy joined the game
+[14:34:01] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[14:35:04] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[14:35:04] [Server thread/INFO]: icyspxy left the game
+[14:35:47] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:54804] logged in with entity id 490998 at (4084.5751273564206, 66.0, 679.6592661939136)
+[14:35:47] [Server thread/INFO]: ItzBl4nk joined the game
+[14:35:48] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[14:37:47] [Server thread/WARN]: vornerslogz moved too quickly! 134.61867744259325,97.09364229550374,-336.4139977137776
+[14:37:47] [Server thread/WARN]: vornerslogz moved too quickly! 134.61867744259325,97.09364229550374,-336.4139977137776
+[14:40:07] [Server thread/INFO]: <Megam1> glory hole
+[14:40:14] [Server thread/INFO]: icyspxy[/100.114.248.52:56777] logged in with entity id 497052 at (5143.958149779781, 51.0, -3869.5766894979292)
+[14:40:14] [Server thread/INFO]: icyspxy joined the game
+[14:40:14] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[14:44:25] [Server thread/INFO]: vornerslogz was slain by Phantom
+[14:44:26] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[14:44:26] [Server thread/WARN]: vornerslogz moved too quickly! 95.61940244637208,-42.0,-16.547148679045193
+[14:44:26] [Server thread/WARN]: vornerslogz moved too quickly! 95.61940244637208,-42.0,-16.547148679045193
+[14:44:41] [Server thread/WARN]: ItzBl4nk moved too quickly! -4021.027319101833,60.0,-410.5524213218028
+[14:45:24] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[14:45:24] [Server thread/INFO]: vornerslogz left the game
+[14:45:32] [Server thread/INFO]: vornerslogz[/100.118.194.8:59257] logged in with entity id 510794 at (4976.056041039169, 200.0, -69.88755431750273)
+[14:45:32] [Server thread/INFO]: vornerslogz joined the game
+[14:45:33] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[14:47:20] [Server thread/INFO]: <Megam1> only in day
+[14:49:48] [Server thread/INFO]: Megam1 lost connection: Timed out
+[14:49:48] [Server thread/INFO]: Megam1 left the game
+[14:50:03] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:50:03] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:50:28] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:50:28] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:50:28] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:50:28] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:50:30] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:50:30] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:50:34] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:50:34] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:50:38] [Server thread/INFO]: Megam1[/100.96.63.92:51150] logged in with entity id 521567 at (5077.1595744012575, 158.0, -87.16167822079272)
+[14:50:38] [Server thread/INFO]: Megam1 joined the game
+[14:50:38] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[14:52:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:52:29] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:29] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:52:31] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:52:31] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:53:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:53:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:53:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[14:53:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[14:55:04] [Server thread/INFO]: ItzBl4nk has made the advancement [An Ancient Tomb]
+[14:55:17] [Server thread/INFO]: <Megam1> wth us that
+[14:55:43] [Server thread/INFO]: <Megam1> wtf is this
+[14:55:54] [Server thread/INFO]: Megam1 has made the advancement [An Ancient Tomb]
+[14:56:32] [Server thread/INFO]: <Megam1> sleep pls
+[14:57:04] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[14:57:04] [Server thread/INFO]: icyspxy left the game
+[14:58:19] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[14:58:19] [Server thread/INFO]: ItzBl4nk left the game
+[15:12:39] [Server thread/INFO]: <Megam1> sleep
+[15:14:08] [Server thread/INFO]: <Megam1> wtf are you doing
+[15:14:13] [Server thread/INFO]: <vornerslogz> idk
+[15:14:50] [Server thread/INFO]: <vornerslogz> Night hawk 1: I guess you're a night hawk too eh?
+[15:15:12] [Server thread/INFO]: <Megam1> how tf do I do this bruh
+[15:15:12] [Server thread/INFO]: <vornerslogz> Night hawk 2: Yea im a Hawk too ahs well.
+[15:16:11] [Server thread/INFO]: <Megam1> HOW DO YOU DO THIS
+[15:16:14] [Server thread/INFO]: <Megam1> blud
+[15:18:21] [Server thread/INFO]: icyspxy[/100.114.248.52:57045] logged in with entity id 564325 at (5011.149658908674, 171.5, -95.25300520525387)
+[15:18:21] [Server thread/INFO]: icyspxy joined the game
+[15:18:21] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[15:18:39] [Server thread/INFO]: <Megam1> icy how tf do you solve this
+[15:18:49] [Server thread/INFO]: <Megam1> ancient tomb
+[15:19:38] [Server thread/WARN]: vornerslogz moved too quickly! -560.6229979162335,-95.49866402088786,1760.2009445644483
+[15:19:40] [Server thread/INFO]: <Megam1> come
+[15:20:11] [Server thread/INFO]: vornerslogz has made the advancement [An Ancient Tomb]
+[15:20:33] [Server thread/INFO]: <Megam1> I lit those up
+[15:20:37] [Server thread/INFO]: <Megam1> already
+[15:21:09] [Server thread/INFO]: <Megam1> that
+[15:21:12] [Server thread/INFO]: <Megam1> I removed the swords
+[15:21:19] [Server thread/INFO]: <Megam1> with names
+[15:21:25] [Server thread/INFO]: <Megam1> come back
+[15:21:28] [Server thread/INFO]: <Megam1> to the 1>4
+[15:21:30] [Server thread/INFO]: <Megam1> thing
+[15:21:51] [Server thread/INFO]: <Megam1> bro there's more
+[15:22:58] [Server thread/INFO]: <Megam1> A
+[15:23:01] [Server thread/INFO]: <Megam1> man fuck that
+[15:23:08] [Server thread/WARN]: icyspxy moved too quickly! -579.2379884180109,-123.0,1551.8184215442648
+[15:23:09] [Server thread/INFO]: icyspxy has made the advancement [An Ancient Tomb]
+[15:23:16] [Server thread/INFO]: <Megam1> BLUD
+[15:23:46] [Server thread/INFO]: Gave 1 [Bow] to icyspxy
+[15:23:51] [Server thread/INFO]: Gave 32 [Arrow] to icyspxy
+[15:24:17] [Server thread/INFO]: icyspxy has made the advancement [Take Aim]
+[15:24:55] [Server thread/INFO]: <Megam1> we each
+[15:24:59] [Server thread/INFO]: <Megam1> shoot
+[15:25:06] [Server thread/INFO]: <Megam1> blud
+[15:25:16] [Server thread/INFO]: <Megam1> ok I'll take this one
+[15:25:23] [Server thread/INFO]: <Megam1> you guys take the ones with broken
+[15:25:24] [Server thread/INFO]: <Megam1> blocks
+[15:25:44] [Server thread/INFO]: <Megam1> it wont light up
+[15:25:49] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:55416] logged in with entity id 571075 at (4302.848872103093, 64.0, 1588.5701814486915)
+[15:25:49] [Server thread/INFO]: ItzBl4nk joined the game
+[15:25:49] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[15:26:06] [Server thread/INFO]: <Megam1> it actually wont
+[15:26:07] [Server thread/INFO]: Set icyspxy's game mode to Creative Mode
+[15:26:15] [Server thread/INFO]: <Megam1> blud
+[15:26:39] [Server thread/INFO]: <Megam1> icy find the chest
+[15:27:00] [Server thread/INFO]: Set icyspxy's game mode to Survival Mode
+[15:28:30] [Server thread/WARN]: vornerslogz moved too quickly! 617.9034680494915,94.5625,-1566.417674426204
+[15:28:30] [Server thread/WARN]: vornerslogz moved too quickly! 617.9034680494915,94.5625,-1566.417674426204
+[15:30:44] [Server thread/WARN]: ItzBl4nk moved too quickly! -343.71871013477994,-3.0,-856.3312353217239
+[15:31:04] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[15:31:04] [Server thread/INFO]: ItzBl4nk left the game
+[15:33:30] [Server thread/INFO]: <Megam1> brb
+[15:33:33] [Server thread/INFO]: Megam1 lost connection: Disconnected
+[15:33:33] [Server thread/INFO]: Megam1 left the game
+[15:34:49] [Server thread/INFO]: Megam1[/100.96.63.92:51767] logged in with entity id 580144 at (4410.699999988079, 69.0, 1500.903815341329)
+[15:34:49] [Server thread/INFO]: Megam1 joined the game
+[15:34:49] [Server thread/INFO]: Async chunk loading for player Megam1 completed
+[15:35:55] [Server thread/INFO]: <Megam1> ok this is mid
+[15:39:49] [Server thread/WARN]: vornerslogz moved too quickly! 63.581795444634736,-13.0,11.679021912103025
+[15:39:49] [Server thread/WARN]: vornerslogz moved too quickly! 63.581795444634736,-13.0,11.679021912103025
+[15:40:04] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[15:40:04] [Server thread/INFO]: vornerslogz left the game
+[15:42:25] [Server thread/INFO]: Applied effect Hero of the Village to icyspxy
+[15:42:57] [Server thread/INFO]: Applied effect Hero of the Village to icyspxy
+[15:43:37] [Server thread/INFO]: icyspxy lost connection: You logged in from another location
+[15:43:37] [Server thread/INFO]: icyspxy left the game
+[15:43:38] [Server thread/INFO]: icyspxy[/100.114.248.52:57222] logged in with entity id 586878 at (5009.677807978789, 171.0, -96.54356195611804)
+[15:43:38] [Server thread/INFO]: icyspxy joined the game
+[15:43:39] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[15:45:25] [Server thread/INFO]: Jpegtf[/100.121.20.3:50199] logged in with entity id 588058 at (-8.5, 166.0, -6.5)
+[15:45:25] [Server thread/INFO]: Jpegtf joined the game
+[15:45:25] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[15:45:31] [Server thread/INFO]: <Megam1> tp to me
+[15:45:49] [Server thread/INFO]: <Megam1> also there's combat logging
+[15:45:57] [Server thread/INFO]: <Megam1> there
+[15:46:15] [Server thread/INFO]: Applied effect Hero of the Village to icyspxy
+[15:46:22] [Server thread/INFO]: <Megam1> you gotta get emeralds
+[15:46:27] [Server thread/INFO]: <Megam1> there's fletchers there
+[15:46:29] [Server thread/INFO]: <Megam1> get sticks
+[15:46:33] [Server thread/INFO]: <Megam1> trade emeralds
+[15:46:38] [Server thread/INFO]: Jpegtf lost connection: Disconnected
+[15:46:38] [Server thread/INFO]: Jpegtf left the game
+[15:47:04] [Server thread/INFO]: Jpegtf[/100.121.20.3:50239] logged in with entity id 589403 at (4956.5189579109265, 98.0, -893.0840335124307)
+[15:47:04] [Server thread/INFO]: Jpegtf joined the game
+[15:47:04] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[15:47:14] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:55537] logged in with entity id 589531 at (4084.553582019113, 66.0, 678.6169834975005)
+[15:47:14] [Server thread/INFO]: ItzBl4nk joined the game
+[15:47:15] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[15:47:23] [Server thread/INFO]: Jpegtf has made the advancement [What a Deal!]
+[15:48:04] [Server thread/INFO]: Jpegtf lost connection: Disconnected
+[15:48:04] [Server thread/INFO]: Jpegtf left the game
+[15:48:38] [Server thread/INFO]: <Megam1> cheater
+[15:48:44] [Server thread/INFO]: Jpegtf[/100.121.20.3:50269] logged in with entity id 591311 at (4989.535257279388, 97.0, -883.4145578430065)
+[15:48:44] [Server thread/INFO]: Jpegtf joined the game
+[15:48:44] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[15:48:48] [Server thread/INFO]: <Megam1> how
+[15:50:25] [Server thread/INFO]: <Megam1> jpeg cut down the rest of the trees
+[15:50:36] [Server thread/INFO]: <Megam1> there's instant chop mod
+[15:50:52] [Server thread/INFO]: <Megam1> just mine a single wood and it all gets chopped
+[15:51:08] [Server thread/INFO]: icyspxy lost connection: Timed out
+[15:51:08] [Server thread/INFO]: icyspxy left the game
+[15:51:13] [Server thread/INFO]: icyspxy[/100.114.248.52:57270] logged in with entity id 593791 at (4981.216382938727, 200.0, -71.243400116424)
+[15:51:13] [Server thread/INFO]: icyspxy joined the game
+[15:51:14] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[15:51:34] [Server thread/INFO]: Jpegtf has made the advancement [Cover Me with Diamonds]
+[15:52:12] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[15:52:12] [Server thread/INFO]: ItzBl4nk left the game
+[15:53:24] [Server thread/INFO]: Jpegtf has made the advancement [Stone Age]
+[15:53:27] [Server thread/INFO]: <Megam1> trade thoise
+[15:53:34] [Server thread/INFO]: <Megam1> and breed more villagers
+[15:53:36] [Server thread/INFO]: <Megam1> ake this
+[15:53:43] [Server thread/INFO]: <Megam1> BRO
+[15:53:45] [Server thread/INFO]: <Megam1> NIGGA
+[15:53:49] [Server thread/INFO]: <Jpegtf> ?
+[15:53:52] [Server thread/INFO]: <Megam1> A VILLAGER TOOK A STACK OF BREAD
+[15:53:57] [Server thread/INFO]: <Megam1> BLUD
+[15:53:58] [Server thread/INFO]: <Jpegtf> LOLLL
+[15:54:08] [Server thread/INFO]: <Megam1> this fatass
+[15:54:25] [Server thread/INFO]: <Megam1> breed
+[15:55:02] [Server thread/INFO]: trimpy[/100.65.135.17:51068] logged in with entity id 599786 at (-0.5, 157.0, 1.5)
+[15:55:02] [Server thread/INFO]: trimpy joined the game
+[15:55:02] [Server thread/INFO]: Async chunk loading for player trimpy completed
+[15:55:25] [Server thread/INFO]: <Jpegtf> ./tpa
+[15:56:11] [Server thread/WARN]: icyspxy moved too quickly! 97.0844466298604,-42.0,-19.792036171116393
+[15:56:18] [Server thread/INFO]: <Megam1> jpeg tp to me
+[15:56:21] [Server thread/INFO]: trimpy has made the advancement [What a Deal!]
+[15:56:34] [Server thread/INFO]: <Megam1> did you set home there?
+[15:56:40] [Server thread/INFO]: <Megam1> set home
+[15:56:54] [Server thread/INFO]: <Megam1> come
+[15:56:54] [Server thread/INFO]: Jpegtf has made the advancement [Diamonds!]
+[15:57:05] [Server thread/INFO]: <trimpy> grahh need to sleep
+[15:57:10] [Server thread/INFO]: <trimpy> alas dose na
+[15:57:16] [Server thread/INFO]: <trimpy> gm
+[15:57:17] [Server thread/INFO]: trimpy lost connection: Disconnected
+[15:57:17] [Server thread/INFO]: trimpy left the game
+[15:57:23] [Server thread/INFO]: <Megam1> blud
+[15:57:26] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:55640] logged in with entity id 603024 at (4089.9491447871887, 68.0, 682.5326001364581)
+[15:57:26] [Server thread/INFO]: ItzBl4nk joined the game
+[15:57:26] [Server thread/INFO]: <Megam1> where did you go
+[15:57:27] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[15:57:32] [Server thread/INFO]: <Megam1> yes
+[15:57:34] [Server thread/INFO]: <Megam1> tp
+[15:58:01] [Server thread/INFO]: <Megam1> use this
+[15:58:28] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[15:58:28] [Server thread/INFO]: ItzBl4nk left the game
+[15:58:34] [Server thread/INFO]: <Megam1> you don't have it installed
+[15:59:19] [Server thread/INFO]: <Megam1> he means fast trading
+[15:59:31] [Server thread/INFO]: <Megam1> it's already locked in
+[16:00:39] [Server thread/INFO]: <Megam1> I'll diddle your doodle
+[16:00:52] [Server thread/INFO]: <Megam1> no book
+[16:00:54] [Server thread/INFO]: <Megam1> give book
+[16:01:08] [Server thread/INFO]: Jpegtf lost connection: Disconnected
+[16:01:08] [Server thread/INFO]: Jpegtf left the game
+[16:01:08] [Server thread/INFO]: Jpegtf has died of cowardice
+[16:01:21] [Server thread/INFO]: Jpegtf[/100.121.20.3:50335] logged in with entity id 608040 at (5012.400732390703, 170.0, -90.40092170351097)
+[16:01:21] [Server thread/INFO]: Jpegtf joined the game
+[16:01:21] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:01:25] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:01:47] [Server thread/INFO]: <Megam1> it's right there
+[16:01:58] [Server thread/INFO]: <Megam1> ok
+[16:02:01] [Server thread/INFO]: <Megam1> I'm gonna sleep now
+[16:02:12] [Server thread/INFO]: <Megam1> set home here jpeg for real
+[16:02:25] [Server thread/INFO]: <Megam1> for the string farm
+[16:04:14] [Server thread/INFO]: Jpegtf has made the advancement [Acquire Hardware]
+[16:04:21] [Server thread/INFO]: Jpegtf lost connection: Disconnected
+[16:04:21] [Server thread/INFO]: Jpegtf left the game
+[16:04:21] [Server thread/INFO]: Jpegtf has died of cowardice
+[16:04:33] [Server thread/INFO]: Jpegtf[/100.121.20.3:50362] logged in with entity id 609360 at (5008.933148278893, 170.0, -89.7584484558368)
+[16:04:33] [Server thread/INFO]: Jpegtf joined the game
+[16:04:33] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:04:36] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:04:44] [Server thread/INFO]: <Megam1> bro we have some in our base
+[16:04:47] [Server thread/WARN]: Jpegtf moved too quickly! 51.372838750214214,71.4375,791.4848692380431
+[16:04:48] [Server thread/INFO]: <Megam1> I got you some
+[16:05:04] [Server thread/INFO]: <Megam1> jpeg stop crashing out
+[16:05:06] [Server thread/INFO]: <Megam1> I gtg
+[16:05:17] [Server thread/INFO]: <Megam1> I'm gonna afk in fisch
+[16:05:19] [Server thread/INFO]: <Megam1> get us a
+[16:05:22] [Server thread/INFO]: <Megam1> iron farm
+[16:05:24] [Server thread/INFO]: <Megam1> string farm
+[16:05:33] [Server thread/INFO]: <Megam1> ok bye bye
+[16:06:21] [Server thread/INFO]: <Megam1> lol
+[16:06:35] [Server thread/INFO]: Jpegtf lost connection: Disconnected
+[16:06:35] [Server thread/INFO]: Jpegtf left the game
+[16:06:35] [Server thread/INFO]: Jpegtf has died of cowardice
+[16:06:38] [Server thread/INFO]: <Megam1> brodie
+[16:06:47] [Server thread/INFO]: Jpegtf[/100.121.20.3:50379] logged in with entity id 612086 at (5009.734163099128, 170.0, -90.17504881329262)
+[16:06:47] [Server thread/INFO]: Jpegtf joined the game
+[16:06:47] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:06:49] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:06:55] [Server thread/INFO]: Megam1 lost connection: Disconnected
+[16:06:55] [Server thread/INFO]: Megam1 left the game
+[16:07:07] [Server thread/INFO]: Applied effect Hero of the Village to icyspxy
+[16:08:02] [Server thread/WARN]: Jpegtf moved too quickly! -22.673372104837654,-76.0,-805.8777411419169
+[16:14:38] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:55689] logged in with entity id 618658 at (4092.796895283221, 60.0, 678.1399699850103)
+[16:14:38] [Server thread/INFO]: ItzBl4nk joined the game
+[16:14:39] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[16:18:53] [Server thread/WARN]: ItzBl4nk moved too quickly! 920.3864626485592,105.0,-777.1446812202257
+[16:19:10] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[16:19:10] [Server thread/INFO]: ItzBl4nk left the game
+[16:19:42] [Server thread/INFO]: ItzBl4nk[/100.84.9.19:55701] logged in with entity id 625436 at (5013.741315765865, 171.0, -98.95135265274985)
+[16:19:42] [Server thread/INFO]: ItzBl4nk joined the game
+[16:19:42] [Server thread/INFO]: Async chunk loading for player ItzBl4nk completed
+[16:21:03] [Server thread/INFO]: <Jpegtf> this nigga really added no xray
+[16:21:13] [Server thread/INFO]: <ItzBl4nk> bro tried
+[16:21:26] [Server thread/INFO]: <Jpegtf> I had to :sob:
+[16:22:14] [Server thread/WARN]: ItzBl4nk moved too quickly! 229.9649427407503,-24.0,5.539645620852525
+[16:22:16] [Server thread/INFO]: Portal located for entity class_3222['icyspxy'/593791, l='ServerLevel[world]', x=5042.30, y=75.00, z=-222.30] at TeleportTarget{pitch=0.32966888, position=(630.3001953363419, 57.0, -19.5), velocity=(0.0, -0.0784000015258789, 0.014940486826894597), yaw=-45.99347}
+[16:22:16] [Server thread/INFO]: Portal located for entity class_3222['ItzBl4nk'/625436, l='ServerLevel[world]', x=5043.15, y=75.00, z=-222.60] at TeleportTarget{pitch=30.921429, position=(631.1537057614651, 57.0, -19.5), velocity=(0.02360425418805474, -0.0784000015258789, -0.01353298989968124), yaw=134.03383}
+[16:22:18] [Server thread/INFO]: ItzBl4nk has made the advancement [We Need to Go Deeper]
+[16:22:18] [Server thread/INFO]: ItzBl4nk has made the advancement [Incendium]
+[16:22:19] [Server thread/INFO]: ItzBl4nk has made the advancement [A Terrible Fortress]
+[16:22:19] [Server thread/INFO]: ItzBl4nk has made the advancement [Strange Biomes]
+[16:22:19] [Server thread/INFO]: ItzBl4nk has made the advancement [Hellfire Mantle]
+[16:22:27] [Server thread/INFO]: Portal located for entity class_3222['icyspxy'/593791, l='ServerLevel[world]', x=630.98, y=57.00, z=-19.59] at TeleportTarget{pitch=21.330288, position=(5042.980628227949, 75.0, -222.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-43.106117}
+[16:22:31] [Server thread/INFO]: <Jpegtf> nigga
+[16:22:32] [Server thread/INFO]: Portal located for entity class_3222['ItzBl4nk'/625436, l='ServerLevel[world]', x=630.51, y=57.00, z=-19.47] at TeleportTarget{pitch=8.271502, position=(5042.509299904896, 75.0, -222.5), velocity=(0.0, -0.0784000015258789, 0.0), yaw=-52.865692}
+[16:24:38] [Server thread/INFO]: <Jpegtf> I DIGGED STRIGHT DOWN JUST TO FIND BEDROCK
+[16:24:42] [Server thread/INFO]: <Jpegtf> NO LAVA POOLS
+[16:24:46] [Server thread/INFO]: <ItzBl4nk> wow
+[16:24:47] [Server thread/INFO]: <Jpegtf> NO CAVE
+[16:24:49] [Server thread/INFO]: <ItzBl4nk> wow
+[16:24:51] [Server thread/INFO]: <Jpegtf> JUST BEDROCK
+[16:24:55] [Server thread/INFO]: <ItzBl4nk> last time i dig straight down
+[16:24:58] [Server thread/INFO]: <ItzBl4nk> i lost a diamond chestplate
+[16:25:25] [Server thread/WARN]: ItzBl4nk moved too quickly! -520.5462986032071,-19.0,901.088481402879
+[16:26:30] [Server thread/WARN]: ItzBl4nk moved too quickly! 368.0316853836889,5.249187078744683,-753.3840301054372
+[16:28:18] [Server thread/WARN]: ItzBl4nk moved too quickly! -323.19656476876753,-7.0,700.920714762789
+[16:30:32] [Server thread/INFO]: ItzBl4nk lost connection: Disconnected
+[16:30:32] [Server thread/INFO]: ItzBl4nk left the game
+[16:30:45] [Server thread/INFO]: Jpegtf has made the advancement [Monster Hunter]
+[16:32:18] [Server thread/INFO]: Reloading!
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noLeggings.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHelmet.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noAxe.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noHoe.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noShovel.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noPickaxe.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noBoots.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noSword.json, ignoring
+[16:32:18] [Worker-ResourceReload-18/ERROR]: Invalid path in mod resource-pack mr_nonetherite: cootshk:recipes/noChestplate.json, ignoring
+[16:32:18] [Server thread/INFO]: Loaded 7 recipes
+[16:32:18] [Server thread/INFO]: Loaded 1359 advancements
+[16:32:18] [ForkJoinPool.commonPool-worker-8/INFO]: Loaded 91 translation keys
+[16:32:49] [Server thread/INFO]: A player is required to run this command here
+[16:33:00] [Server thread/INFO]: /advancement (grant|revoke)
+[16:33:00] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[16:33:00] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[16:33:00] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[16:33:00] [Server thread/INFO]: /clear [<targets>]
+[16:33:00] [Server thread/INFO]: /clone (<begin>|from)
+[16:33:00] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[16:33:00] [Server thread/INFO]: /data (merge|get|remove|modify)
+[16:33:00] [Server thread/INFO]: /datapack (enable|disable|list)
+[16:33:00] [Server thread/INFO]: /debug (start|stop|function)
+[16:33:00] [Server thread/INFO]: /defaultgamemode <gamemode>
+[16:33:00] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[16:33:00] [Server thread/INFO]: /effect (clear|give)
+[16:33:00] [Server thread/INFO]: /me <action>
+[16:33:00] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[16:33:00] [Server thread/INFO]: /experience (add|set|query)
+[16:33:00] [Server thread/INFO]: /xp -> experience
+[16:33:00] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[16:33:00] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[16:33:00] [Server thread/INFO]: /forceload (add|remove|query)
+[16:33:00] [Server thread/INFO]: /function <name>
+[16:33:00] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[16:33:00] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[16:33:00] [Server thread/INFO]: /give <targets> <item> [<count>]
+[16:33:00] [Server thread/INFO]: /help [<command>]
+[16:33:00] [Server thread/INFO]: /item (replace|modify)
+[16:33:00] [Server thread/INFO]: /kick <targets> [<reason>]
+[16:33:00] [Server thread/INFO]: /kill [<targets>]
+[16:33:00] [Server thread/INFO]: /list [uuids]
+[16:33:00] [Server thread/INFO]: /locate (structure|biome|poi)
+[16:33:00] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[16:33:00] [Server thread/INFO]: /msg <targets> <message>
+[16:33:00] [Server thread/INFO]: /tell -> msg
+[16:33:00] [Server thread/INFO]: /w -> msg
+[16:33:00] [Server thread/INFO]: /particle <name> [<pos>]
+[16:33:00] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[16:33:00] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[16:33:00] [Server thread/INFO]: /reload
+[16:33:00] [Server thread/INFO]: /recipe (give|take)
+[16:33:00] [Server thread/INFO]: /return <value>
+[16:33:00] [Server thread/INFO]: /ride <target> (mount|dismount)
+[16:33:00] [Server thread/INFO]: /say <message>
+[16:33:00] [Server thread/INFO]: /schedule (function|clear)
+[16:33:00] [Server thread/INFO]: /scoreboard (objectives|players)
+[16:33:00] [Server thread/INFO]: /seed
+[16:33:00] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[16:33:00] [Server thread/INFO]: /spawnpoint [<targets>]
+[16:33:00] [Server thread/INFO]: /setworldspawn [<pos>]
+[16:33:00] [Server thread/INFO]: /spectate [<target>]
+[16:33:00] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[16:33:00] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[16:33:00] [Server thread/INFO]: /summon <entity> [<pos>]
+[16:33:00] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[16:33:00] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[16:33:00] [Server thread/INFO]: /teammsg <message>
+[16:33:00] [Server thread/INFO]: /tm -> teammsg
+[16:33:00] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[16:33:00] [Server thread/INFO]: /tp -> teleport
+[16:33:00] [Server thread/INFO]: /tellraw <targets> <message>
+[16:33:00] [Server thread/INFO]: /time (set|add|query)
+[16:33:00] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[16:33:00] [Server thread/INFO]: /trigger <objective> [add|set]
+[16:33:00] [Server thread/INFO]: /weather (clear|rain|thunder)
+[16:33:00] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[16:33:00] [Server thread/INFO]: /jfr (start|stop)
+[16:33:00] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[16:33:00] [Server thread/INFO]: /banlist [ips|players]
+[16:33:00] [Server thread/INFO]: /ban <targets> [<reason>]
+[16:33:00] [Server thread/INFO]: /deop <targets>
+[16:33:00] [Server thread/INFO]: /op <targets>
+[16:33:00] [Server thread/INFO]: /pardon <targets>
+[16:33:00] [Server thread/INFO]: /pardon-ip <target>
+[16:33:00] [Server thread/INFO]: /perf (start|stop)
+[16:33:00] [Server thread/INFO]: /save-all [flush]
+[16:33:00] [Server thread/INFO]: /save-off
+[16:33:00] [Server thread/INFO]: /save-on
+[16:33:00] [Server thread/INFO]: /setidletimeout <minutes>
+[16:33:00] [Server thread/INFO]: /stop
+[16:33:00] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[16:33:00] [Server thread/INFO]: /c2me notick
+[16:33:00] [Server thread/INFO]: /blossomlib (reload-configs|clear-countdowns|clear-cooldowns|debug)
+[16:33:00] [Server thread/INFO]: /tpcancel
+[16:33:00] [Server thread/INFO]: /back
+[16:33:00] [Server thread/INFO]: /home [<name>]
+[16:33:00] [Server thread/INFO]: /sethome [<name>]
+[16:33:00] [Server thread/INFO]: /delhome [<name>]
+[16:33:00] [Server thread/INFO]: /listhomes
+[16:33:00] [Server thread/INFO]: /homes [list|set|delete|set-max|load-legacy]
+[16:33:00] [Server thread/INFO]: /tpa <target>
+[16:33:00] [Server thread/INFO]: /tpahere <target>
+[16:33:00] [Server thread/INFO]: /tpaaccept [<target>]
+[16:33:00] [Server thread/INFO]: /tpadeny [<target>]
+[16:33:00] [Server thread/INFO]: /tpacancel [<target>]
+[16:33:00] [Server thread/INFO]: /warp <warp> [<who>]
+[16:33:00] [Server thread/INFO]: /warps [list|add|add-global|remove]
+[16:33:00] [Server thread/INFO]: /modernfix upgradeStructures
+[16:33:00] [Server thread/INFO]: /polymer [stats|effects|client-item|export-registry|target-block|creative]
+[16:33:28] [Server thread/INFO]: Incorrect argument for command
+[16:33:28] [Server thread/INFO]: ...lossomlib reload config<--[HERE]
+[16:33:34] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[16:33:34] [Server thread/INFO]: icyspxy left the game
+[16:34:35] [Server thread/INFO]: Config for class dev.codedsakura.blossom.homes.BlossomHomesConfig reloaded
+[16:34:41] [Server thread/INFO]: icyspxy[/100.114.248.52:57414] logged in with entity id 643036 at (4091.630883357979, 69.0, 681.5235132744754)
+[16:34:41] [Server thread/INFO]: icyspxy joined the game
+[16:34:42] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[16:35:58] [Server thread/INFO]: Jpegtf has made the advancement [Sneak 100]
+[16:36:00] [Server thread/INFO]: icyspxy has made the advancement [Sneak 100]
+[16:36:02] [Server thread/INFO]: icyspxy has completed the challenge [It Spreads]
+[16:40:04] [Server thread/WARN]: icyspxy moved too quickly! 645.9828465038736,224.5625,-136.9075708932096
+[16:41:31] [Server thread/WARN]: icyspxy moved too quickly! -16.38698722353365,0.0,-11.914358364928894
+[16:41:38] [Server thread/INFO]: Portal not located for entity class_3222['Jpegtf'/612086, l='ServerLevel[world]', x=4369.70, y=-55.00, z=51.63] at null
+[16:41:40] [Server thread/INFO]: Portal not located for entity class_3222['icyspxy'/643036, l='ServerLevel[world]', x=4368.38, y=-55.00, z=51.47] at null
+[16:41:41] [Server thread/INFO]: Jpegtf has made the advancement [Incendium]
+[16:41:41] [Server thread/INFO]: Jpegtf has made the advancement [We Need to Go Deeper]
+[16:41:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2532ms or 50 ticks behind
+[16:41:44] [Server thread/INFO]: Jpegtf has made the advancement [A Terrible Fortress]
+[16:43:44] [Server thread/INFO]: Jpegtf has made the advancement [Strange Biomes]
+[16:43:44] [Server thread/INFO]: Jpegtf has made the advancement [Hellfire Mantle]
+[16:44:23] [Server thread/INFO]: icyspxy has made the advancement [Into Fire]
+[16:45:13] [Server thread/WARN]: Couldn't set damage of loot item 1 iron_horse_armor
+[16:46:23] [Server thread/INFO]: Jpegtf has made the advancement [Hellish Paradise]
+[16:46:48] [Server thread/INFO]: icyspxy has reached the goal [Pocket Edition Alpha]
+[16:47:01] [Server thread/INFO]: Jpegtf has made the advancement [Darude - Firestorm]
+[16:47:18] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:18] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:19] [Server thread/INFO]: Jpegtf has made the advancement [Not Today, Thank You]
+[16:47:29] [Server thread/INFO]: Named entity class_1545['Desert Blaze'/649035, l='ServerLevel[world]', x=307.81, y=54.66, z=-92.37] died: Desert Blaze was slain by Jpegtf
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:37] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:41] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:41] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:41] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:46] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:46] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:46] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:47:51] [Server thread/INFO]: icyspxy has made the advancement [Not Today, Thank You]
+[16:48:44] [Server thread/INFO]: Jpegtf has completed the challenge [Return to Sender]
+[16:48:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:48:44] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:49:12] [Server thread/INFO]: Named entity class_1639['Radiation Director'/647933, l='ServerLevel[world]', x=588.49, y=33.00, z=42.98] died: Radiation Director was slain by icyspxy
+[16:49:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[16:50:23] [Server thread/INFO]: Jpegtf has made the advancement [The Floor is Tears]
+[16:50:29] [Server thread/INFO]: Jpegtf was burnt to a crisp whilst fighting Desert Blaze
+[16:50:32] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[16:52:29] [Server thread/INFO]: icyspxy has made the advancement [Ice Bucket Challenge]
+[16:54:55] [Server thread/INFO]: Gave 1 [Diamond] to icyspxy
+[16:59:35] [Server thread/WARN]: icyspxy moved too quickly! 136.60724837922407,-42.0,-15.550739247757932
+[17:13:56] [Server thread/INFO]: Incorrect argument for command
+[17:13:56] [Server thread/INFO]: ...99 20 true <--[HERE]
+[17:14:53] [Server thread/INFO]: Applied effect Hero of the Village to icyspxy
+[17:16:31] [Server thread/INFO]: vornerslogz[/100.118.194.8:61433] logged in with entity id 686240 at (5062.300000011921, 147.0, -101.39067140197035)
+[17:16:31] [Server thread/INFO]: vornerslogz joined the game
+[17:16:32] [Server thread/INFO]: Async chunk loading for player vornerslogz completed
+[17:16:51] [Server thread/WARN]: vornerslogz moved too quickly! -976.739171789307,-84.5,779.9331264150389
+[17:16:51] [Server thread/WARN]: vornerslogz moved too quickly! -976.739171789307,-84.5,779.9331264150389
+[17:19:33] [Server thread/WARN]: vornerslogz moved too quickly! 978.886619115613,99.0,-772.3452516172188
+[17:19:33] [Server thread/WARN]: vornerslogz moved too quickly! 978.886619115613,99.0,-772.3452516172188
+[17:22:10] [Server thread/INFO]: Jpegtf has made the advancement [Suit Up]
+[17:24:33] [Server thread/INFO]: vornerslogz lost connection: Disconnected
+[17:24:33] [Server thread/INFO]: vornerslogz left the game
+[17:25:28] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[17:25:28] [Server thread/INFO]: icyspxy left the game
+[17:27:44] [Server thread/INFO]: Stopping the server
+[17:27:44] [Server thread/INFO]: Stopping server
+[17:27:44] [Server thread/INFO]: Saving players
+[17:27:44] [Server thread/INFO]: Saving worlds
+[17:27:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:27:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:27:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:27:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:27:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:27:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:27:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

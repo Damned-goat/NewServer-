@@ -1,0 +1,152 @@
+[
+  {
+    "uuid": "afcd7fe3-973f-3073-8029-a998086ac4be",
+    "homes": [
+      {
+        "name": "2",
+        "world": "minecraft:overworld",
+        "x": 67.18166311523265,
+        "y": 128.0,
+        "z": 271.7602705641811,
+        "yaw": -176.99939,
+        "pitch": 30.749365
+      },
+      {
+        "name": "1",
+        "world": "minecraft:overworld",
+        "x": 4087.009517561307,
+        "y": 66.0,
+        "z": 680.2380645290821,
+        "yaw": -98.10028,
+        "pitch": 18.9
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "ba16096b-007b-3a85-aeb0-83fda18a4a45",
+    "homes": [
+      {
+        "name": "Home",
+        "world": "minecraft:overworld",
+        "x": 4973.7212095769755,
+        "y": 97.0,
+        "z": -888.0147570091648,
+        "yaw": -95.09985,
+        "pitch": 17.84988
+      },
+      {
+        "name": "Icy",
+        "world": "minecraft:overworld",
+        "x": 5095.173938579627,
+        "y": 156.0,
+        "z": -72.41174567178815,
+        "yaw": 143.55019,
+        "pitch": 7.0500736
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "056ed584-3dc0-382b-ba1d-c627a9d7830f",
+    "homes": [
+      {
+        "name": "valley",
+        "world": "minecraft:overworld",
+        "x": 5075.060365244599,
+        "y": 158.0,
+        "z": -88.20562825541528,
+        "yaw": 142.4065,
+        "pitch": 34.799484
+      },
+      {
+        "name": "mountclaim",
+        "world": "minecraft:overworld",
+        "x": 5163.699999988079,
+        "y": 319.0,
+        "z": -635.1711834264466,
+        "yaw": 140.83502,
+        "pitch": 65.09975
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "bcbfafad-c4f1-3aed-8281-c8eb4d243da2",
+    "homes": [
+      {
+        "name": "twilight",
+        "world": "minecraft:overworld",
+        "x": 5080.461951614388,
+        "y": 158.0,
+        "z": -89.14606323417622,
+        "yaw": 52.379852,
+        "pitch": 14.529563
+      },
+      {
+        "name": "blank",
+        "world": "minecraft:overworld",
+        "x": 4091.5362716046775,
+        "y": 69.0,
+        "z": 681.6999999880791,
+        "yaw": -110.691864,
+        "pitch": 27.734396
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "91e72934-0f55-38e4-ae73-4c46ac360d7a",
+    "homes": [
+      {
+        "name": "main",
+        "world": "minecraft:overworld",
+        "x": 75.64487349858882,
+        "y": 128.0,
+        "z": 234.30142990456042,
+        "yaw": 11.881977,
+        "pitch": 46.814053
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "4fceec88-5634-3020-845a-c6cffe28cac1",
+    "homes": [
+      {
+        "name": "main",
+        "world": "minecraft:overworld",
+        "x": 54.69494961466655,
+        "y": 142.9375,
+        "z": 257.69999998807907,
+        "yaw": 15.790161,
+        "pitch": 32.24992
+      }
+    ],
+    "maxHomes": 2
+  },
+  {
+    "uuid": "fea4043c-96b3-3e90-99ff-220c952b3992",
+    "homes": [
+      {
+        "name": "main",
+        "world": "minecraft:overworld",
+        "x": 4988.300000011921,
+        "y": 95.0,
+        "z": -904.4819328220941,
+        "yaw": 66.29004,
+        "pitch": 6.449518
+      },
+      {
+        "name": "icy",
+        "world": "minecraft:overworld",
+        "x": 5010.718002328493,
+        "y": 170.0,
+        "z": -93.01249998807907,
+        "yaw": 154.79358,
+        "pitch": 22.05037
+      }
+    ],
+    "maxHomes": 2
+  }
+]
