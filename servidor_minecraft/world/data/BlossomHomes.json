@@ -148,5 +148,20 @@
       }
     ],
     "maxHomes": 2
+  },
+  {
+    "uuid": "477b6381-9f0e-3ec8-a471-9208ff9a1b74",
+    "homes": [
+      {
+        "name": "main",
+        "world": "minecraft:overworld",
+        "x": 4981.79682234974,
+        "y": 97.0,
+        "z": -885.7756469224895,
+        "yaw": -179.10942,
+        "pitch": 10.949511
+      }
+    ],
+    "maxHomes": 5
   }
 ]
