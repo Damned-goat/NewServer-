@@ -396,3 +396,14 @@
 [04:35:25] [Server thread/INFO]: Jpegtf[/100.121.20.3:51948] logged in with entity id 179527 at (5015.699999988079, 170.0, -92.58956731136267)
 [04:35:25] [Server thread/INFO]: Jpegtf joined the game
 [04:35:25] [Server thread/INFO]: Async chunk loading for player Jpegtf completed
+[04:39:48] [Server thread/INFO]: <trimpy> ill be back soon
+[04:39:49] [Server thread/INFO]: trimpy lost connection: Disconnected
+[04:39:49] [Server thread/INFO]: trimpy left the game
+[04:40:40] [Server thread/INFO]: icyspxy lost connection: Disconnected
+[04:40:40] [Server thread/INFO]: icyspxy left the game
+[04:45:24] [Server thread/INFO]: icyspxy[/100.114.248.52:64608] logged in with entity id 211445 at (5015.317754971781, 170.0, -90.6726290519683)
+[04:45:24] [Server thread/INFO]: icyspxy joined the game
+[04:45:24] [Server thread/INFO]: Async chunk loading for player icyspxy completed
+[04:46:05] [Server thread/WARN]: icyspxy moved too quickly! 9.886271132118054,-0.5061351021062421,2.442470721242117
+[04:46:05] [Server thread/WARN]: Jpegtf moved too quickly! -6.231705551331288,0.0,7.882202732698715
+[04:46:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
