@@ -67,6 +67,7 @@
       "minecraft:desert": "2024-11-29 15:27:03 +0000",
       "minecraft:jungle": "2024-11-29 07:36:42 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-11-29 14:24:33 +0000",
+      "minecraft:windswept_savanna": "2024-11-30 03:56:11 +0000",
       "minecraft:warm_ocean": "2024-11-29 07:20:44 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-29 07:09:59 +0000",
       "minecraft:meadow": "2024-11-29 08:44:52 +0000",
@@ -2794,6 +2795,24 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2024-11-29 16:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-11-30 04:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-11-30 04:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-11-30 04:00:24 +0000"
     },
     "done": true
   },
