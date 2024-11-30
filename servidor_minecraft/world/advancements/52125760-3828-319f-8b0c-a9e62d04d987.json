@@ -706,6 +706,7 @@
       "minecraft:skeleton": "2024-11-30 04:13:09 +0000",
       "minecraft:spider": "2024-11-29 09:58:31 +0000",
       "minecraft:creeper": "2024-11-29 09:55:15 +0000",
+      "minecraft:zombified_piglin": "2024-11-30 04:54:42 +0000",
       "minecraft:enderman": "2024-11-29 07:27:22 +0000",
       "minecraft:zombie": "2024-11-29 07:11:44 +0000",
       "minecraft:zombie_villager": "2024-11-30 04:44:17 +0000"
@@ -1600,21 +1601,27 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-11-30 03:37:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-11-30 03:46:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_mutton": "2024-11-30 03:48:31 +0000"
+      "has_water_bucket": "2024-11-30 03:48:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
-      "has_spider_eye": "2024-11-30 04:18:33 +0000"
+      "has_mutton": "2024-11-30 03:48:31 +0000"
     },
     "done": true
   },
@@ -1636,33 +1643,9 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2024-11-30 03:49:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2024-11-30 03:48:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_chestplate": "2024-11-30 03:37:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2024-11-30 03:55:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-11-30 03:48:14 +0000"
     },
     "done": true
   },
@@ -1672,15 +1655,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-11-30 03:48:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-11-30 03:49:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2024-11-30 03:49:20 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
+  "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
-      "has_white_wool": "2024-11-30 03:48:31 +0000"
+      "has_tripwire_hook": "2024-11-30 03:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-30 04:18:33 +0000"
     },
     "done": true
   },

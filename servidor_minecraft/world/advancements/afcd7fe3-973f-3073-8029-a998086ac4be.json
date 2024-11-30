@@ -69,6 +69,7 @@
       "minecraft:warm_ocean": "2024-11-29 07:21:00 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-29 07:11:15 +0000",
       "minecraft:deep_dark": "2024-11-29 07:03:02 +0000",
+      "minecraft:meadow": "2024-11-30 04:54:10 +0000",
       "minecraft:savanna": "2024-11-29 07:25:36 +0000",
       "minecraft:plains": "2024-11-29 16:24:59 +0000"
     },
@@ -113,6 +114,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-11-29 06:51:48 +0000",
+      "minecraft:spider": "2024-11-30 04:54:43 +0000",
       "minecraft:phantom": "2024-11-29 14:45:12 +0000",
       "minecraft:husk": "2024-11-29 14:56:06 +0000",
       "minecraft:zombie": "2024-11-29 06:52:10 +0000"
@@ -1676,6 +1678,12 @@
   "incendium:volcanic_deltas/root": {
     "criteria": {
       "incendium:volcanic_deltas": "2024-11-29 16:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-11-30 04:54:09 +0000"
     },
     "done": true
   },
