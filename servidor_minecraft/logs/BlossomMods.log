@@ -3527,3 +3527,11 @@ java.io.FileNotFoundException: ./world/./data/BlossomWarps.json (No such file or
 [2024-11-30 04:03:37] [Server thread/TRACE] (BlossomHomes): home player class_3222['ItzBl4nk'/955, l='ServerLevel[world]', x=70.37, y=123.00, z=253.30] to Home{name='1', world='minecraft:overworld', x=4087.009517561307, y=66.0, z=680.2380645290821, yaw=-98.10028, pitch=18.9}
 [2024-11-30 04:03:37] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be (3.0 s)
 [2024-11-30 04:03:40] [Server thread/DEBUG] (BlossomLib): genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be has ended
+[2024-11-30 04:08:11] [Server thread/TRACE] (BlossomHomes): home player class_3222['icyspxy'/24562, l='ServerLevel[world]', x=4839.30, y=-53.00, z=-326.80] to null
+[2024-11-30 04:08:11] [Server thread/TRACE] (BlossomHomes): found spawn position for bcbfafad-c4f1-3aed-8281-c8eb4d243da2 @ (5078.5, 158.0, -88.5)
+[2024-11-30 04:08:11] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for bcbfafad-c4f1-3aed-8281-c8eb4d243da2 (3.0 s)
+[2024-11-30 04:08:14] [Server thread/DEBUG] (BlossomLib): genericCountdown for bcbfafad-c4f1-3aed-8281-c8eb4d243da2 has ended
+[2024-11-30 04:13:29] [Server thread/TRACE] (BlossomHomes): home player class_3222['ItzBl4nk'/955, l='ServerLevel[world]', x=4089.85, y=66.00, z=672.98] to Home{name='2', world='minecraft:overworld', x=67.18166311523265, y=128.0, z=271.7602705641811, yaw=-176.99939, pitch=30.749365}
+[2024-11-30 04:13:29] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be (3.0 s)
+[2024-11-30 04:13:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be has ended
+[2024-11-30 04:17:00] [Server thread/DEBUG] (BlossomWarps): warp player [ba16096b-007b-3a85-aeb0-83fda18a4a45] to global null
