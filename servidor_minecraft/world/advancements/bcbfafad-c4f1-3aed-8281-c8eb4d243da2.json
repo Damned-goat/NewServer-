@@ -2623,93 +2623,39 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
+      "avoid_vibration": "2024-11-29 16:36:00 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
+      "kill_mob_near_sculk_catalyst": "2024-11-29 16:36:02 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
+      "blaze_rod": "2024-11-29 16:44:23 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
+      "has_blaze_rod": "2024-11-29 16:44:23 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-11-29 17:25:22 +0000"
-    },
-    "done": false
-  },
-  "craftable_froglights:recipes/building_blocks/froglight": {
-    "criteria": {
-      "has_glowstone": "2024-11-29 16:46:54 +0000"
+      "has_blaze_rod": "2024-11-29 16:44:23 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/deflect_arrow": {
-    "criteria": {
-      "deflected_projectile": "2024-11-29 16:47:51 +0000"
     },
     "done": true
   },
@@ -2731,24 +2677,6 @@
     },
     "done": true
   },
-  "incendium:toxic_heap/nuclear_fusion": {
-    "criteria": {
-      "incendium:treasure": "2024-11-29 16:46:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
-    "criteria": {
-      "kill_mob_near_sculk_catalyst": "2024-11-29 16:36:02 +0000"
-    },
-    "done": true
-  },
-  "incendium:toxic_heap/mystic_wisdom": {
-    "criteria": {
-      "treasure": "2024-11-29 16:46:48 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
@@ -2767,39 +2695,15 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2024-11-29 16:52:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2024-11-29 16:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2024-11-29 16:46:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2024-11-29 16:36:00 +0000"
     },
     "done": true
   },
@@ -2815,21 +2719,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2024-11-29 16:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
-    "criteria": {
-      "has_nether_brick_slab": "2024-11-29 16:48:06 +0000"
     },
     "done": true
   },
@@ -2839,21 +2731,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2024-11-29 16:52:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2024-11-29 16:44:23 +0000"
     },
     "done": true
   },
@@ -2866,6 +2746,54 @@
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-11-29 16:46:36 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/nuclear_fusion": {
+    "criteria": {
+      "incendium:treasure": "2024-11-29 16:46:48 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/mystic_wisdom": {
+    "criteria": {
+      "treasure": "2024-11-29 16:46:48 +0000"
+    },
+    "done": false
+  },
+  "craftable_froglights:recipes/building_blocks/froglight": {
+    "criteria": {
+      "has_glowstone": "2024-11-29 16:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-11-29 16:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-11-29 16:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2024-11-29 16:48:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-11-29 16:52:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-11-29 16:52:29 +0000"
     },
     "done": true
   },
