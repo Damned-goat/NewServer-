@@ -3535,3 +3535,27 @@ java.io.FileNotFoundException: ./world/./data/BlossomWarps.json (No such file or
 [2024-11-30 04:13:29] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be (3.0 s)
 [2024-11-30 04:13:32] [Server thread/DEBUG] (BlossomLib): genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be has ended
 [2024-11-30 04:17:00] [Server thread/DEBUG] (BlossomWarps): warp player [ba16096b-007b-3a85-aeb0-83fda18a4a45] to global null
+[2024-11-30 04:18:01] [Server thread/TRACE] (BlossomHomes): home player class_3222['ItzBl4nk'/113058, l='ServerLevel[world]', x=66.59, y=129.00, z=281.83] to Home{name='2', world='minecraft:overworld', x=67.18166311523265, y=128.0, z=271.7602705641811, yaw=-176.99939, pitch=30.749365}
+[2024-11-30 04:18:01] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be (3.0 s)
+[2024-11-30 04:18:04] [Server thread/DEBUG] (BlossomLib): genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be has ended
+[2024-11-30 04:18:08] [Server thread/TRACE] (BlossomHomes): home player class_3222['ItzBl4nk'/113058, l='ServerLevel[world]', x=67.18, y=128.00, z=271.76] to Home{name='1', world='minecraft:overworld', x=4087.009517561307, y=66.0, z=680.2380645290821, yaw=-98.10028, pitch=18.9}
+[2024-11-30 04:18:34] [Server thread/TRACE] (BlossomHomes): home player class_3222['ItzBl4nk'/113058, l='ServerLevel[world]', x=62.05, y=133.00, z=257.93] to Home{name='1', world='minecraft:overworld', x=4087.009517561307, y=66.0, z=680.2380645290821, yaw=-98.10028, pitch=18.9}
+[2024-11-30 04:18:34] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be (3.0 s)
+[2024-11-30 04:18:37] [Server thread/DEBUG] (BlossomLib): genericCountdown for afcd7fe3-973f-3073-8029-a998086ac4be has ended
+[2024-11-30 04:22:14] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for fea4043c-96b3-3e90-99ff-220c952b3992 (3.0 s)
+[2024-11-30 04:22:17] [Server thread/DEBUG] (BlossomLib): genericCountdown for fea4043c-96b3-3e90-99ff-220c952b3992 has ended
+[2024-11-30 04:22:31] [Server thread/TRACE] (BlossomHomes): home player class_3222['Megam1'/40138, l='ServerLevel[world]', x=4999.44, y=-27.00, z=-1080.30] to Home{name='Home', world='minecraft:overworld', x=4973.7212095769755, y=97.0, z=-888.0147570091648, yaw=-95.09985, pitch=17.84988}
+[2024-11-30 04:22:31] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 (3.0 s)
+[2024-11-30 04:22:34] [Server thread/DEBUG] (BlossomLib): genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 has ended
+[2024-11-30 04:23:35] [Server thread/TRACE] (BlossomHomes): home player class_3222['Megam1'/40138, l='ServerLevel[world]', x=4956.11, y=98.00, z=-892.31] to Home{name='Icy', world='minecraft:overworld', x=5095.173938579627, y=156.0, z=-72.41174567178815, yaw=143.55019, pitch=7.0500736}
+[2024-11-30 04:23:35] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 (3.0 s)
+[2024-11-30 04:23:38] [Server thread/DEBUG] (BlossomLib): genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 has ended
+[2024-11-30 04:24:09] [Server thread/TRACE] (BlossomHomes): home player class_3222['Megam1'/40138, l='ServerLevel[world]', x=5062.83, y=158.00, z=-88.11] to Home{name='Home', world='minecraft:overworld', x=4973.7212095769755, y=97.0, z=-888.0147570091648, yaw=-95.09985, pitch=17.84988}
+[2024-11-30 04:24:09] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 (3.0 s)
+[2024-11-30 04:24:12] [Server thread/DEBUG] (BlossomLib): genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 has ended
+[2024-11-30 04:25:46] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 (3.0 s)
+[2024-11-30 04:25:49] [Server thread/DEBUG] (BlossomLib): genericCountdown for ba16096b-007b-3a85-aeb0-83fda18a4a45 has ended
+[2024-11-30 04:26:09] [Server thread/TRACE] (BlossomHomes): home list class_3222['Jpegtf'/1316, l='ServerLevel[world]', x=4999.70, y=-30.00, z=-1080.70]
+[2024-11-30 04:26:12] [Server thread/TRACE] (BlossomHomes): home player class_3222['Jpegtf'/1316, l='ServerLevel[world]', x=4999.70, y=-30.00, z=-1080.70] to Home{name='main', world='minecraft:overworld', x=4988.300000011921, y=95.0, z=-904.4819328220941, yaw=66.29004, pitch=6.449518}
+[2024-11-30 04:26:12] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for fea4043c-96b3-3e90-99ff-220c952b3992 (3.0 s)
+[2024-11-30 04:26:15] [Server thread/DEBUG] (BlossomLib): genericCountdown for fea4043c-96b3-3e90-99ff-220c952b3992 has ended
