@@ -1,0 +1,40 @@
+
+#User-adjustable Preferences
+[preferences]
+	#After teleporting, players can teleport back to where they came from (true or false)
+	allowBackCommand = true
+	#Players can set and teleport home (true or false)
+	allowHomeCommands = true
+	#Players can teleport to their most recent death point (true or false)
+	allowGraveCommand = true
+	#Players can request to teleport to other players (true or false)
+	allowTPACommand = true
+	#The amount of time it takes a request to expire (seconds)
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	TPAExpiration = 60
+	#The amount of xp levels consumed when using back command
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	xpToUseBackCommand = 0
+	#The amount of xp levels consumed when using sethome command
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	xpToUseSetHomeCommand = 0
+	#The amount of xp levels consumed when using home command
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	xpToUseHomeCommand = 0
+	#The amount of xp levels consumed when using grave command
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	xpToUseGraveCommand = 0
+	#The amount of xp levels consumed when using tpa command
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	xpToUseTPACommand = 0
+	#The permission level needed to use the update command (usually 4 is owner, 3 is admin, 2 is gamemaster, 1 is mod, and 0 is anybody)
+	#Number must be a whole number, not a decimal
+	#Range: 0 ~ 1000000000
+	permissionLevelToUpdate = 4
+

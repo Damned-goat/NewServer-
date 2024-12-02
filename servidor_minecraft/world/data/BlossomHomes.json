@@ -3,15 +3,6 @@
     "uuid": "afcd7fe3-973f-3073-8029-a998086ac4be",
     "homes": [
       {
-        "name": "2",
-        "world": "minecraft:overworld",
-        "x": 67.18166311523265,
-        "y": 128.0,
-        "z": 271.7602705641811,
-        "yaw": -176.99939,
-        "pitch": 30.749365
-      },
-      {
         "name": "1",
         "world": "minecraft:overworld",
         "x": 4087.009517561307,
@@ -19,9 +10,27 @@
         "z": 680.2380645290821,
         "yaw": -98.10028,
         "pitch": 18.9
+      },
+      {
+        "name": "icy",
+        "world": "minecraft:overworld",
+        "x": 5012.232359158459,
+        "y": 171.0,
+        "z": -97.30000001192093,
+        "yaw": 85.680725,
+        "pitch": 10.7999935
+      },
+      {
+        "name": "real",
+        "world": "minecraft:overworld",
+        "x": 4186.201688799171,
+        "y": 127.9375,
+        "z": 134.09747956966675,
+        "yaw": -135.4429,
+        "pitch": 45.000214
       }
     ],
-    "maxHomes": 2
+    "maxHomes": 4
   },
   {
     "uuid": "ba16096b-007b-3a85-aeb0-83fda18a4a45",
@@ -91,9 +100,18 @@
         "z": 681.6999999880791,
         "yaw": -110.691864,
         "pitch": 27.734396
+      },
+      {
+        "name": "piglin",
+        "world": "minecraft:the_nether",
+        "x": -946.6999999880791,
+        "y": 63.0,
+        "z": -1356.699999988079,
+        "yaw": -124.344055,
+        "pitch": 40.97753
       }
     ],
-    "maxHomes": 2
+    "maxHomes": 4
   },
   {
     "uuid": "91e72934-0f55-38e4-ae73-4c46ac360d7a",
@@ -123,7 +141,7 @@
         "pitch": 32.24992
       }
     ],
-    "maxHomes": 2
+    "maxHomes": 4
   },
   {
     "uuid": "fea4043c-96b3-3e90-99ff-220c952b3992",
@@ -160,6 +178,78 @@
         "z": -885.7756469224895,
         "yaw": -179.10942,
         "pitch": 10.949511
+      }
+    ],
+    "maxHomes": 5
+  },
+  {
+    "uuid": "6f5d8924-0c84-33af-be5c-954b6949bfbe",
+    "homes": [
+      {
+        "name": "blank",
+        "world": "minecraft:overworld",
+        "x": 4092.487500011921,
+        "y": 59.0,
+        "z": 681.3000000119209,
+        "yaw": -31.103638,
+        "pitch": -9.450434
+      },
+      {
+        "name": "mine",
+        "world": "minecraft:overworld",
+        "x": 4223.577806786085,
+        "y": 100.0,
+        "z": 471.8006312230227,
+        "yaw": 52.238037,
+        "pitch": 32.250717
+      },
+      {
+        "name": "death",
+        "world": "minecraft:overworld",
+        "x": 3917.555387726691,
+        "y": 143.0,
+        "z": 1440.1019778823045,
+        "yaw": 82.1344,
+        "pitch": 69.749794
+      }
+    ],
+    "maxHomes": 4
+  },
+  {
+    "uuid": "52125760-3828-319f-8b0c-a9e62d04d987",
+    "homes": [
+      {
+        "name": "rayner",
+        "world": "minecraft:overworld",
+        "x": 4223.451802068558,
+        "y": 100.0,
+        "z": 473.8373249588025,
+        "yaw": -64.481186,
+        "pitch": 22.491724
+      }
+    ],
+    "maxHomes": 4
+  },
+  {
+    "uuid": "4e013f58-abd2-356a-9cfb-07f8ce06e902",
+    "homes": [
+      {
+        "name": "main",
+        "world": "minecraft:overworld",
+        "x": 4224.522312126846,
+        "y": 100.0,
+        "z": 477.31644752556656,
+        "yaw": -6.9146023,
+        "pitch": 20.249363
+      },
+      {
+        "name": "pitofsorrow",
+        "world": "minecraft:overworld",
+        "x": 4091.723637375449,
+        "y": 69.0,
+        "z": 677.8947555516155,
+        "yaw": 90.14917,
+        "pitch": 12.149899
       }
     ],
     "maxHomes": 5
